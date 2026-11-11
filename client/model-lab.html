@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#192324">
+  <title>游侠 · 3D 角色样板</title>
+  <style>
+    :root { color-scheme: dark; font: 15px/1.55 system-ui,sans-serif; color: #f5ecd9; background: #192324; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; }
+    main { margin: auto; max-width: 1270px; padding: 30px 28px; }
+    header { display: flex; justify-content: space-between; align-items: start; gap: 20px; margin-bottom: 18px; }
+    h1 { font-size: clamp(25px,3.5vw,43px); line-height: 1.1; font-weight: 670; margin: 2px 0 10px; }
+    p { margin: 0; color: #bfcbbe; }
+    a { color: #e9d2a6; }
+    .eyebrow { font-size: 12px; color: #e3ba72; font-weight: 700; letter-spacing: .1em; margin-bottom: 8px; }
+    .layout { display: grid; grid-template-columns: minmax(0,1fr) 245px; gap: 14px; }
+    #stage { position: relative; min-height: 440px; height: min(73vh,760px); overflow: hidden; background: #344541; border: 1px solid #64736a; border-radius: 12px; touch-action: none; cursor: grab; }
+    #stage:active { cursor: grabbing; }
+    canvas { display: block; width: 100%; height: 100%; }
+    #error { margin: 32px; color: #ffd1a0; }
+    #metrics { position: absolute; left: 13px; bottom: 12px; padding: 4px 10px; background: #202925dc; color: #e8dec7; border-radius: 5px; pointer-events: none; font-size: 12px; font-variant-numeric: tabular-nums; }
+    aside { border-radius: 12px; border: 1px solid #43534c; padding: 16px; background: #22302f; align-self: start; }
+    fieldset { margin: 0 0 18px; padding: 0; border: 0; }
+    legend { margin-bottom: 7px; font-size: 13px; font-weight: 700; }
+    button { font: inherit; font-size: 13px; color: #e8e3d1; border-radius: 6px; border: 1px solid #5a6b5b; padding: 5px 9px; cursor: pointer; background: #303d37; }
+    button[aria-pressed="true"] { color: #262d1f; background: #d4c08e; border-color: #e2ce9e; }
+    .buttons { display: flex; flex-wrap: wrap; gap: 6px; }
+    label { display: block; margin: 7px 0; color: #d0d9c9; font-size: 13px; }
+    input[type="range"] { width: 100%; accent-color: #d4c08e; }
+    input[type="checkbox"] { accent-color: #d4c08e; }
+    .hint { font-size: 12px; color: #aebeb0; }
+    @media(max-width:680px) {
+      main { padding: 18px 12px; }
+      .layout { grid-template-columns: 1fr; }
+      #stage { min-height: 330px; height: 55vh; }
+      aside { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div><p class="eyebrow">魔镜 Online · 角色实验室</p><h1>男游侠</h1><p>正交相机下的连续蒙皮与实时骨骼动作</p></div>
+    <a href="./">回到游戏</a>
+  </header>
+  <div class="layout">
+    <section id="stage" aria-label="游侠三维预览"><output id="metrics">正在载入</output></section>
+    <aside aria-label="预览设置">
+      <fieldset>
+        <legend>动作</legend>
+        <div class="buttons">
+          <button data-mode="idle" aria-pressed="true">待机</button>
+          <button data-mode="walk" aria-pressed="false">行走</button>
+          <button data-mode="draw" aria-pressed="false">拉弓</button>
+          <button data-mode="hit" aria-pressed="false">受击</button>
+          <button data-mode="dead" aria-pressed="false">倒地</button>
+        </div>
+        <label for="speed">行走速度 <output id="speed-value" for="speed">0.80</output></label>
+        <input id="speed" type="range" min="0.35" max="1.15" step="0.05" value="0.8">
+        <label><input id="reference-motion" type="checkbox"> Quaternius 原创动作对照</label>
+        <output id="motion-status" class="hint" aria-live="polite"></output>
+      </fieldset>
+      <fieldset>
+        <legend>角度</legend>
+        <div class="buttons">
+          <button data-heading="0">正面</button>
+          <button data-heading="90">侧面</button>
+          <button data-heading="180">背面</button>
+        </div>
+        <label for="heading">转向</label><input id="heading" type="range" min="-180" max="180" value="25">
+        <label><input id="spin" type="checkbox"> 自动旋转</label>
+        <label><input id="game-size" type="checkbox"> 游戏视距 · 约 70 像素</label>
+        <label><input id="bones" type="checkbox"> 显示骨架</label>
+      </fieldset>
+      <p class="hint">拖动预览可从任意方向查看角色。</p>
+    </aside>
+  </div>
+</main>
+<script type="module" src="/src/model-lab.ts"></script>
+</body>
+</html>

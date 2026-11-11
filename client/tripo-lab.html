@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#182226">
+  <title>男战士 · Tripo 试样</title>
+  <link rel="stylesheet" href="/src/tripo-lab.css">
+</head>
+<body>
+  <main>
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">魔镜 Online · 三维试样</p>
+        <h1>男战士</h1>
+        <p>以 2011 年大陆职业展示图为参照，核对 Tripo 试样各角度的造型。</p>
+      </div>
+      <a href="./?warrior3d=1">进入游戏试用</a>
+    </header>
+
+    <div class="layout">
+      <aside class="references" aria-labelledby="references-title">
+        <h2 id="references-title">输入参照</h2>
+        <div class="references-grid">
+          <figure>
+            <img src="/assets/experiments/tripo-warrior/original-front.jpg" width="206" height="284" alt="2011 年聚侠发布的男战士职业立绘">
+            <figcaption><strong>原作职业图</strong><span>聚侠 · 2011 年 6 月 28 日</span></figcaption>
+          </figure>
+          <figure>
+            <img src="/assets/experiments/tripo-warrior/prepared-front.png" width="1068" height="1473" alt="用于 Tripo 输入的男战士准备图">
+            <figcaption><strong>AI 修复参考图</strong><span>去背景并放大，部分细节经过重建</span></figcaption>
+          </figure>
+        </div>
+        <a class="source" href="https://www.juxia.com/news/2011-6-28/7335.html">查看原作职业介绍</a>
+        <p class="reference-note">原作目前只有这一张可确认的角度；后续侧面与背面为推测重建。</p>
+      </aside>
+
+      <section class="preview" aria-labelledby="preview-title">
+        <div class="preview-header">
+          <h2 id="preview-title">GLB 模型</h2>
+          <p>拖动旋转 · 滚轮或双指缩放</p>
+          <a href="/assets/experiments/tripo-warrior/model.glb" download="mojing-warrior-tripo-v1.glb">下载模型</a>
+        </div>
+        <div id="stage" role="region" aria-label="三维模型预览">
+          <div id="message" class="message">
+            <div role="status">
+              <h3 id="status">正在检查试样</h3>
+              <p id="status-detail">等待读取 Tripo 导出的 GLB 文件。</p>
+            </div>
+            <button id="retry" type="button" hidden>重新加载</button>
+          </div>
+        </div>
+        <fieldset id="view-controls" disabled>
+          <legend class="visually-hidden">相机角度</legend>
+          <button type="button" data-view="0">正面</button>
+          <button type="button" data-view="90">侧面</button>
+          <button type="button" data-view="180">背面</button>
+          <label for="front-axis">正面轴</label>
+          <select id="front-axis"><option value="0">+Z</option><option value="90" selected>+X</option></select>
+        </fieldset>
+        <div class="model-details">
+          <dl aria-label="预览场景统计">
+            <div><dt>场景网格</dt><dd id="meshes">—</dd></div>
+            <div><dt>三角面</dt><dd id="triangles">—</dd></div>
+            <div><dt>渲染材质</dt><dd id="materials">—</dd></div>
+            <div><dt>动画</dt><dd id="animations">—</dd></div>
+          </dl>
+          <p id="motion" role="status">等待模型文件</p>
+          <p class="reference-note">本次试样是整体网格，装备尚未分件；剑与身体相连，拆装还需要切分、补体和绑定。</p>
+          <div id="animation-controls" hidden>
+            <label for="clip">动画片段</label>
+            <select id="clip"></select>
+            <button id="play" type="button">播放</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <details class="views">
+      <summary>Tripo 四视图</summary>
+      <p class="views-note">这四张图由 Tripo 根据单张原作参考推测生成。背部纹样尚无原作图证。</p>
+      <div class="views-grid">
+        <figure>
+          <img src="/assets/experiments/tripo-warrior/views/front.jpeg" loading="lazy" alt="Tripo 生成的男战士正面">
+          <figcaption>正面</figcaption>
+        </figure>
+        <figure>
+          <img src="/assets/experiments/tripo-warrior/views/left.jpeg" loading="lazy" alt="Tripo 生成的男战士左侧面">
+          <figcaption>左侧面</figcaption>
+        </figure>
+        <figure>
+          <img src="/assets/experiments/tripo-warrior/views/back.jpeg" loading="lazy" alt="Tripo 生成的男战士背面">
+          <figcaption>背面</figcaption>
+        </figure>
+        <figure>
+          <img src="/assets/experiments/tripo-warrior/views/right.jpeg" loading="lazy" alt="Tripo 生成的男战士右侧面">
+          <figcaption>右侧面</figcaption>
+        </figure>
+      </div>
+    </details>
+  </main>
+  <script type="module" src="/src/tripo-lab.ts"></script>
+</body>
+</html>

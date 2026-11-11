@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>魔镜 · 特效校验</title>
+<style>
+body{margin:0;background:#202835;color:#eae2ca;font:15px system-ui}header{padding:16px 24px;background:#303c45}h1{font-size:20px;margin:0 0 8px}p{margin:8px 0}button{padding:8px 14px;margin:4px;background:#455763;color:inherit;border:1px solid #859495;border-radius:5px}main{height:calc(100vh - 190px);min-height:300px}output{margin-left:12px;font-variant-numeric:tabular-nums}label{margin-left:12px}a{color:#c8ddba}
+</style></head><body><header><h1>实时粒子特效校验</h1><p>tktk / CC0 · 与游戏共用渲染与事件路径。圆点标示目标脚下，浮字与遮挡条用于核对绘制顺序。</p>
+<button id="cure">治疗 +35</button><button id="melee">近战 −17</button><button id="crowd">24个混合效果</button><button id="clear">清空</button><button id="reset">重建场景</button>
+<label><input type="checkbox" id="loop">循环预览</label><label><input type="checkbox" id="pause">暂停动画</label><label>缩放 <select id="zoom"><option>1</option><option>0.7</option><option>1.5</option></select></label><output id="status" role="status">加载中</output><p><a href="/">返回游戏</a></p></header><main id="stage"></main><script type="module" src="/src/effects-lab.ts"></script></body></html>
