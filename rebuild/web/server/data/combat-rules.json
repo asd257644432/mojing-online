@@ -57,13 +57,13 @@
   },
   "class_attack_range": {
     "warrior": {
-      "range_px": 56,
+      "range_px": 72,
       "kind": "melee",
       "class_name": "战士",
       "damage_type": "physical"
     },
     "rogue": {
-      "range_px": 50,
+      "range_px": 64,
       "kind": "melee",
       "class_name": "盗贼",
       "damage_type": "physical"
