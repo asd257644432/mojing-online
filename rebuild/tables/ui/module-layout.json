@@ -1,0 +1,1931 @@
+{
+ "schema_version": 1,
+ "reference_size": [
+  1606,
+  936
+ ],
+ "ui_canvas": [
+  1920,
+  1080
+ ],
+ "mode": "素材占位；虚线框内只显示简体模块名",
+ "hud": [
+  {
+   "id": "portrait",
+   "name": "角色头像",
+   "rect": [
+    20,
+    2,
+    145,
+    137
+   ],
+   "status": "复刻件待验收",
+   "basis": "用户提供1606×936实机截图位置标注；复刻件由 gen_hud_assets.py 几何重绘，按1920画布1:1生成",
+   "window": "character",
+   "asset": "res://assets/ui/modules/hud/portrait.png"
+  },
+  {
+   "id": "name",
+   "name": "角色名称",
+   "rect": [
+    180,
+    2,
+    130,
+    28
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/name.png"
+  },
+  {
+   "id": "vip",
+   "name": "贵宾",
+   "rect": [
+    317,
+    2,
+    52,
+    28
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/vip.png"
+  },
+  {
+   "id": "charge",
+   "name": "充值",
+   "rect": [
+    373,
+    2,
+    50,
+    28
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/charge.png"
+  },
+  {
+   "id": "hp",
+   "name": "生命条",
+   "rect": [
+    180,
+    33,
+    298,
+    24
+   ],
+   "status": "代码绘制待验收",
+   "basis": "位置按 hud-module-reference.png 逐像素量定：行高24、条53×21、两端半圆、纵向色阶逐行采样；原截图三条均为满槽（数值51.5%/29.7%/29%与条长不成比例），复刻按满槽对照，ratio<1 时右侧画空槽当血条用",
+   "render": "code",
+   "preview_ratio": 1.0,
+   "preview_label": "HP",
+   "preview_text": "106752/207343"
+  },
+  {
+   "id": "mp",
+   "name": "法力条",
+   "rect": [
+    180,
+    57,
+    298,
+    24
+   ],
+   "status": "代码绘制待验收",
+   "basis": "位置按 hud-module-reference.png 逐像素量定：行高24、条53×21、两端半圆、纵向色阶逐行采样；原截图三条均为满槽（数值51.5%/29.7%/29%与条长不成比例），复刻按满槽对照，ratio<1 时右侧画空槽当血条用",
+   "render": "code",
+   "preview_ratio": 1.0,
+   "preview_label": "MP",
+   "preview_text": "172562713/580047075"
+  },
+  {
+   "id": "xp",
+   "name": "经验条",
+   "rect": [
+    180,
+    82,
+    298,
+    24
+   ],
+   "status": "代码绘制待验收",
+   "basis": "位置按 hud-module-reference.png 逐像素量定：行高24、条53×21、两端半圆、纵向色阶逐行采样；原截图三条均为满槽（数值51.5%/29.7%/29%与条长不成比例），复刻按满槽对照，ratio<1 时右侧画空槽当血条用",
+   "render": "code",
+   "preview_ratio": 1.0,
+   "preview_label": "EXP",
+   "preview_text": "29%"
+  },
+  {
+   "id": "level",
+   "name": "等级",
+   "rect": [
+    152,
+    116,
+    46,
+    28
+   ],
+   "status": "复刻件待验收",
+   "basis": "用户提供1606×936实机截图位置标注；复刻件由 gen_hud_assets.py 几何重绘，按1920画布1:1生成",
+   "asset": "res://assets/ui/modules/hud/level.png"
+  },
+  {
+   "id": "buff",
+   "name": "状态效果",
+   "rect": [
+    203,
+    116,
+    175,
+    42
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/buff.png"
+  },
+  {
+   "id": "target-avatar",
+   "name": "目标头像",
+   "rect": [
+    765,
+    2,
+    85,
+    82
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/target-avatar.png"
+  },
+  {
+   "id": "target-name",
+   "name": "目标名称",
+   "rect": [
+    865,
+    2,
+    180,
+    26
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/target-name.png"
+  },
+  {
+   "id": "target-hp",
+   "name": "目标生命",
+   "rect": [
+    865,
+    35,
+    180,
+    23
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/target-hp.png"
+  },
+  {
+   "id": "target-mp",
+   "name": "目标法力",
+   "rect": [
+    865,
+    63,
+    180,
+    23
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/target-mp.png"
+  },
+  {
+   "id": "target-level",
+   "name": "目标等级",
+   "rect": [
+    785,
+    86,
+    50,
+    25
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/target-level.png"
+  },
+  {
+   "id": "target-buffs",
+   "name": "目标状态",
+   "rect": [
+    842,
+    87,
+    170,
+    25
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/target-buffs.png"
+  },
+  {
+   "id": "minimap",
+   "name": "小地图",
+   "rect": [
+    1398,
+    2,
+    203,
+    200
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "map",
+   "asset": "res://assets/ui/modules/hud/minimap.png"
+  },
+  {
+   "id": "map-tools",
+   "name": "导航",
+   "rect": [
+    1355,
+    4,
+    38,
+    188
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "map",
+   "asset": "res://assets/ui/modules/hud/map-tools.png"
+  },
+  {
+   "id": "events",
+   "name": "活动入口",
+   "rect": [
+    1408,
+    207,
+    150,
+    40
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "events",
+   "asset": "res://assets/ui/modules/hud/events.png"
+  },
+  {
+   "id": "notice",
+   "name": "系统公告",
+   "rect": [
+    360,
+    126,
+    870,
+    115
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/notice.png"
+  },
+  {
+   "id": "quests",
+   "name": "任务追踪",
+   "rect": [
+    1340,
+    270,
+    258,
+    215
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "quests",
+   "asset": "res://assets/ui/modules/hud/quests.png"
+  },
+  {
+   "id": "battle-feed",
+   "name": "战斗信息",
+   "rect": [
+    1340,
+    536,
+    258,
+    220
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/battle-feed.png"
+  },
+  {
+   "id": "chat",
+   "name": "聊天消息",
+   "rect": [
+    14,
+    690,
+    550,
+    160
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/chat.png"
+  },
+  {
+   "id": "chat-tabs",
+   "name": "聊天频道",
+   "rect": [
+    8,
+    862,
+    558,
+    35
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/chat-tabs.png"
+  },
+  {
+   "id": "chat-input",
+   "name": "聊天输入",
+   "rect": [
+    8,
+    901,
+    558,
+    33
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "asset": "res://assets/ui/modules/hud/chat-input.png"
+  },
+  {
+   "id": "skills",
+   "name": "技能快捷栏",
+   "rect": [
+    648,
+    798,
+    484,
+    75
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "skills",
+   "asset": "res://assets/ui/modules/hud/skills.png"
+  },
+  {
+   "id": "items",
+   "name": "物品快捷栏",
+   "rect": [
+    648,
+    879,
+    484,
+    55
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "inventory",
+   "asset": "res://assets/ui/modules/hud/items.png"
+  },
+  {
+   "id": "aux-skill",
+   "name": "辅助技能",
+   "rect": [
+    576,
+    864,
+    63,
+    70
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "skills",
+   "asset": "res://assets/ui/modules/hud/aux-skill.png"
+  },
+  {
+   "id": "entry-character",
+   "name": "角色",
+   "rect": [
+    1140,
+    850,
+    54,
+    84
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "character",
+   "asset": "res://assets/ui/modules/hud/entry-character.png"
+  },
+  {
+   "id": "entry-inventory",
+   "name": "背包",
+   "rect": [
+    1196,
+    850,
+    54,
+    84
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "inventory",
+   "asset": "res://assets/ui/modules/hud/entry-inventory.png"
+  },
+  {
+   "id": "entry-skills",
+   "name": "技能",
+   "rect": [
+    1252,
+    850,
+    54,
+    84
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "skills",
+   "asset": "res://assets/ui/modules/hud/entry-skills.png"
+  },
+  {
+   "id": "entry-quests",
+   "name": "任务",
+   "rect": [
+    1308,
+    850,
+    54,
+    84
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "quests",
+   "asset": "res://assets/ui/modules/hud/entry-quests.png"
+  },
+  {
+   "id": "entry-friends",
+   "name": "好友",
+   "rect": [
+    1364,
+    850,
+    54,
+    84
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "friends",
+   "asset": "res://assets/ui/modules/hud/entry-friends.png"
+  },
+  {
+   "id": "entry-guild",
+   "name": "公会",
+   "rect": [
+    1420,
+    850,
+    54,
+    84
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "guild",
+   "asset": "res://assets/ui/modules/hud/entry-guild.png"
+  },
+  {
+   "id": "entry-nation",
+   "name": "国家",
+   "rect": [
+    1476,
+    850,
+    54,
+    84
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "nation",
+   "asset": "res://assets/ui/modules/hud/entry-nation.png"
+  },
+  {
+   "id": "mall",
+   "name": "商城",
+   "rect": [
+    1536,
+    834,
+    68,
+    100
+   ],
+   "status": "待补素材",
+   "basis": "用户提供1606×936实机截图位置标注",
+   "window": "mall",
+   "asset": "res://assets/ui/modules/hud/mall.png"
+  }
+ ],
+ "windows": {
+  "inventory": {
+   "name": "背包",
+   "rect": [
+    545,
+    110,
+    830,
+    640
+   ],
+   "basis": "IMG0109、IMG0267：六列五行、页签、货币、底部操作；局部尺寸为预留",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "背包标题",
+     "rect": [
+      0,
+      0,
+      772,
+      46
+     ],
+     "status": "待补素材",
+     "id": "inventory.part-00",
+     "asset": "res://assets/ui/modules/inventory/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      778,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "inventory.part-01",
+     "asset": "res://assets/ui/modules/inventory/part-01.png"
+    },
+    {
+     "name": "背包页签",
+     "rect": [
+      12,
+      56,
+      806,
+      44
+     ],
+     "status": "待补素材",
+     "id": "inventory.part-02",
+     "asset": "res://assets/ui/modules/inventory/part-02.png"
+    },
+    {
+     "name": "物品格",
+     "rect": [
+      12,
+      112,
+      468,
+      388
+     ],
+     "status": "待补素材",
+     "id": "inventory.part-03",
+     "asset": "res://assets/ui/modules/inventory/part-03.png"
+    },
+    {
+     "name": "物品说明",
+     "rect": [
+      500,
+      112,
+      318,
+      388
+     ],
+     "status": "待补素材",
+     "id": "inventory.part-04",
+     "asset": "res://assets/ui/modules/inventory/part-04.png"
+    },
+    {
+     "name": "货币栏",
+     "rect": [
+      12,
+      514,
+      806,
+      42
+     ],
+     "status": "待补素材",
+     "id": "inventory.part-05",
+     "asset": "res://assets/ui/modules/inventory/part-05.png"
+    },
+    {
+     "name": "背包操作",
+     "rect": [
+      12,
+      568,
+      806,
+      52
+     ],
+     "status": "待补素材",
+     "id": "inventory.part-06",
+     "asset": "res://assets/ui/modules/inventory/part-06.png"
+    }
+   ]
+  },
+  "character": {
+   "name": "角色",
+   "rect": [
+    515,
+    110,
+    890,
+    650
+   ],
+   "basis": "IMG0119：左侧属性、右侧人物及十个装备位；外观和图标待补",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "角色标题",
+     "rect": [
+      0,
+      0,
+      832,
+      46
+     ],
+     "status": "待补素材",
+     "id": "character.part-00",
+     "asset": "res://assets/ui/modules/character/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      838,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "character.part-01",
+     "asset": "res://assets/ui/modules/character/part-01.png"
+    },
+    {
+     "name": "角色页签",
+     "rect": [
+      12,
+      56,
+      866,
+      44
+     ],
+     "status": "待补素材",
+     "id": "character.part-02",
+     "asset": "res://assets/ui/modules/character/part-02.png"
+    },
+    {
+     "name": "角色属性",
+     "rect": [
+      12,
+      112,
+      320,
+      510
+     ],
+     "status": "待补素材",
+     "id": "character.part-03",
+     "asset": "res://assets/ui/modules/character/part-03.png"
+    },
+    {
+     "name": "角色外观",
+     "rect": [
+      472,
+      210,
+      210,
+      225
+     ],
+     "status": "待补素材",
+     "id": "character.part-04",
+     "asset": "res://assets/ui/modules/character/part-04.png"
+    },
+    {
+     "name": "属性加点",
+     "rect": [
+      350,
+      550,
+      528,
+      72
+     ],
+     "status": "待补素材",
+     "id": "character.part-05",
+     "asset": "res://assets/ui/modules/character/part-05.png"
+    },
+    {
+     "name": "头部",
+     "rect": [
+      460,
+      112,
+      72,
+      72
+     ],
+     "status": "待补素材",
+     "id": "character.part-06",
+     "asset": "res://assets/ui/modules/character/part-06.png"
+    },
+    {
+     "name": "护符",
+     "rect": [
+      595,
+      112,
+      72,
+      72
+     ],
+     "status": "待补素材",
+     "id": "character.part-07",
+     "asset": "res://assets/ui/modules/character/part-07.png"
+    },
+    {
+     "name": "武器",
+     "rect": [
+      350,
+      197,
+      72,
+      72
+     ],
+     "status": "待补素材",
+     "id": "character.part-08",
+     "asset": "res://assets/ui/modules/character/part-08.png"
+    },
+    {
+     "name": "戒指",
+     "rect": [
+      350,
+      282,
+      72,
+      72
+     ],
+     "status": "待补素材",
+     "id": "character.part-09",
+     "asset": "res://assets/ui/modules/character/part-09.png"
+    },
+    {
+     "name": "手部",
+     "rect": [
+      350,
+      367,
+      72,
+      72
+     ],
+     "status": "待补素材",
+     "id": "character.part-10",
+     "asset": "res://assets/ui/modules/character/part-10.png"
+    },
+    {
+     "name": "脚部",
+     "rect": [
+      350,
+      452,
+      72,
+      72
+     ],
+     "status": "待补素材",
+     "id": "character.part-11",
+     "asset": "res://assets/ui/modules/character/part-11.png"
+    },
+    {
+     "name": "项链",
+     "rect": [
+      785,
+      197,
+      72,
+      72
+     ],
+     "status": "待补素材",
+     "id": "character.part-12",
+     "asset": "res://assets/ui/modules/character/part-12.png"
+    },
+    {
+     "name": "衣服",
+     "rect": [
+      785,
+      282,
+      72,
+      72
+     ],
+     "status": "待补素材",
+     "id": "character.part-13",
+     "asset": "res://assets/ui/modules/character/part-13.png"
+    },
+    {
+     "name": "腰带",
+     "rect": [
+      785,
+      367,
+      72,
+      72
+     ],
+     "status": "待补素材",
+     "id": "character.part-14",
+     "asset": "res://assets/ui/modules/character/part-14.png"
+    },
+    {
+     "name": "腿部",
+     "rect": [
+      785,
+      452,
+      72,
+      72
+     ],
+     "status": "待补素材",
+     "id": "character.part-15",
+     "asset": "res://assets/ui/modules/character/part-15.png"
+    }
+   ]
+  },
+  "quests": {
+   "name": "任务",
+   "rect": [
+    510,
+    110,
+    900,
+    600
+   ],
+   "basis": "IMG0309低清参考：分类、正文、奖励与底部操作",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "任务标题",
+     "rect": [
+      0,
+      0,
+      842,
+      46
+     ],
+     "status": "待补素材",
+     "id": "quests.part-00",
+     "asset": "res://assets/ui/modules/quests/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      848,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "quests.part-01",
+     "asset": "res://assets/ui/modules/quests/part-01.png"
+    },
+    {
+     "name": "任务分类",
+     "rect": [
+      12,
+      58,
+      250,
+      480
+     ],
+     "status": "待补素材",
+     "id": "quests.part-02",
+     "asset": "res://assets/ui/modules/quests/part-02.png"
+    },
+    {
+     "name": "任务正文",
+     "rect": [
+      278,
+      58,
+      610,
+      200
+     ],
+     "status": "待补素材",
+     "id": "quests.part-03",
+     "asset": "res://assets/ui/modules/quests/part-03.png"
+    },
+    {
+     "name": "任务目标",
+     "rect": [
+      278,
+      270,
+      610,
+      95
+     ],
+     "status": "待补素材",
+     "id": "quests.part-04",
+     "asset": "res://assets/ui/modules/quests/part-04.png"
+    },
+    {
+     "name": "任务奖励",
+     "rect": [
+      278,
+      377,
+      610,
+      100
+     ],
+     "status": "待补素材",
+     "id": "quests.part-05",
+     "asset": "res://assets/ui/modules/quests/part-05.png"
+    },
+    {
+     "name": "任务操作",
+     "rect": [
+      278,
+      489,
+      610,
+      49
+     ],
+     "status": "待补素材",
+     "id": "quests.part-06",
+     "asset": "res://assets/ui/modules/quests/part-06.png"
+    }
+   ]
+  },
+  "skills": {
+   "name": "技能",
+   "rect": [
+    550,
+    110,
+    820,
+    590
+   ],
+   "basis": "仅技能入口和快捷栏有图证；内部为推定预留，待完整截图核对",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "技能标题",
+     "rect": [
+      0,
+      0,
+      762,
+      46
+     ],
+     "status": "待补素材",
+     "id": "skills.part-00",
+     "asset": "res://assets/ui/modules/skills/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      768,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "skills.part-01",
+     "asset": "res://assets/ui/modules/skills/part-01.png"
+    },
+    {
+     "name": "技能页签",
+     "rect": [
+      12,
+      58,
+      796,
+      42
+     ],
+     "status": "待补素材",
+     "id": "skills.part-02",
+     "asset": "res://assets/ui/modules/skills/part-02.png"
+    },
+    {
+     "name": "技能列表",
+     "rect": [
+      12,
+      112,
+      230,
+      390
+     ],
+     "status": "待补素材",
+     "id": "skills.part-03",
+     "asset": "res://assets/ui/modules/skills/part-03.png"
+    },
+    {
+     "name": "技能说明",
+     "rect": [
+      254,
+      112,
+      554,
+      290
+     ],
+     "status": "待补素材",
+     "id": "skills.part-04",
+     "asset": "res://assets/ui/modules/skills/part-04.png"
+    },
+    {
+     "name": "技能操作",
+     "rect": [
+      254,
+      414,
+      554,
+      88
+     ],
+     "status": "待补素材",
+     "id": "skills.part-05",
+     "asset": "res://assets/ui/modules/skills/part-05.png"
+    }
+   ]
+  },
+  "shop": {
+   "name": "药水商店",
+   "rect": [
+    560,
+    110,
+    800,
+    620
+   ],
+   "basis": "IMG0046商店组件；药水内容仍为原型",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "药水商店标题",
+     "rect": [
+      0,
+      0,
+      742,
+      46
+     ],
+     "status": "待补素材",
+     "id": "shop.part-00",
+     "asset": "res://assets/ui/modules/shop/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      748,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "shop.part-01",
+     "asset": "res://assets/ui/modules/shop/part-01.png"
+    },
+    {
+     "name": "商品分类",
+     "rect": [
+      12,
+      58,
+      776,
+      42
+     ],
+     "status": "待补素材",
+     "id": "shop.part-02",
+     "asset": "res://assets/ui/modules/shop/part-02.png"
+    },
+    {
+     "name": "商品列表",
+     "rect": [
+      12,
+      112,
+      776,
+      295
+     ],
+     "status": "待补素材",
+     "id": "shop.part-03",
+     "asset": "res://assets/ui/modules/shop/part-03.png"
+    },
+    {
+     "name": "出售栏",
+     "rect": [
+      12,
+      419,
+      776,
+      82
+     ],
+     "status": "待补素材",
+     "id": "shop.part-04",
+     "asset": "res://assets/ui/modules/shop/part-04.png"
+    },
+    {
+     "name": "商店货币",
+     "rect": [
+      12,
+      513,
+      776,
+      40
+     ],
+     "status": "待补素材",
+     "id": "shop.part-05",
+     "asset": "res://assets/ui/modules/shop/part-05.png"
+    },
+    {
+     "name": "商店操作",
+     "rect": [
+      12,
+      565,
+      776,
+      43
+     ],
+     "status": "待补素材",
+     "id": "shop.part-06",
+     "asset": "res://assets/ui/modules/shop/part-06.png"
+    }
+   ]
+  },
+  "npc": {
+   "name": "NPC对话",
+   "rect": [
+    550,
+    110,
+    820,
+    560
+   ],
+   "basis": "完整对话窗口尚缺直接图证，区域仅预留",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "NPC对话标题",
+     "rect": [
+      0,
+      0,
+      762,
+      46
+     ],
+     "status": "待补素材",
+     "id": "npc.part-00",
+     "asset": "res://assets/ui/modules/npc/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      768,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "npc.part-01",
+     "asset": "res://assets/ui/modules/npc/part-01.png"
+    },
+    {
+     "name": "NPC立绘",
+     "rect": [
+      12,
+      58,
+      230,
+      400
+     ],
+     "status": "待补素材",
+     "id": "npc.part-02",
+     "asset": "res://assets/ui/modules/npc/part-02.png"
+    },
+    {
+     "name": "对话正文",
+     "rect": [
+      254,
+      58,
+      554,
+      220
+     ],
+     "status": "待补素材",
+     "id": "npc.part-03",
+     "asset": "res://assets/ui/modules/npc/part-03.png"
+    },
+    {
+     "name": "任务奖励",
+     "rect": [
+      254,
+      290,
+      554,
+      78
+     ],
+     "status": "待补素材",
+     "id": "npc.part-04",
+     "asset": "res://assets/ui/modules/npc/part-04.png"
+    },
+    {
+     "name": "交互选项",
+     "rect": [
+      254,
+      380,
+      554,
+      78
+     ],
+     "status": "待补素材",
+     "id": "npc.part-05",
+     "asset": "res://assets/ui/modules/npc/part-05.png"
+    }
+   ]
+  },
+  "map": {
+   "name": "地图",
+   "rect": [
+    210,
+    110,
+    1500,
+    880
+   ],
+   "basis": "已有原作大地图与NPC列表资料；合并布局为操作预留",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "地图标题",
+     "rect": [
+      0,
+      0,
+      1442,
+      46
+     ],
+     "status": "待补素材",
+     "id": "map.part-00",
+     "asset": "res://assets/ui/modules/map/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      1448,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "map.part-01",
+     "asset": "res://assets/ui/modules/map/part-01.png"
+    },
+    {
+     "name": "NPC列表",
+     "rect": [
+      12,
+      58,
+      300,
+      800
+     ],
+     "status": "待补素材",
+     "id": "map.part-02",
+     "asset": "res://assets/ui/modules/map/part-02.png"
+    },
+    {
+     "name": "地图画面",
+     "rect": [
+      324,
+      58,
+      1164,
+      730
+     ],
+     "status": "待补素材",
+     "id": "map.part-03",
+     "asset": "res://assets/ui/modules/map/part-03.png"
+    },
+    {
+     "name": "地图图例",
+     "rect": [
+      324,
+      800,
+      1164,
+      58
+     ],
+     "status": "待补素材",
+     "id": "map.part-04",
+     "asset": "res://assets/ui/modules/map/part-04.png"
+    }
+   ]
+  },
+  "friends": {
+   "name": "好友",
+   "rect": [
+    540,
+    110,
+    840,
+    620
+   ],
+   "basis": "仅入口或同类组件参考；缺完整窗口图证，内部四区为推定预留",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "好友标题",
+     "rect": [
+      0,
+      0,
+      782,
+      46
+     ],
+     "status": "待补素材",
+     "id": "friends.part-00",
+     "asset": "res://assets/ui/modules/friends/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      788,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "friends.part-01",
+     "asset": "res://assets/ui/modules/friends/part-01.png"
+    },
+    {
+     "name": "好友页签",
+     "rect": [
+      12,
+      58,
+      816,
+      42
+     ],
+     "status": "待补素材",
+     "id": "friends.part-02",
+     "asset": "res://assets/ui/modules/friends/part-02.png"
+    },
+    {
+     "name": "好友列表",
+     "rect": [
+      12,
+      112,
+      250,
+      400
+     ],
+     "status": "待补素材",
+     "id": "friends.part-03",
+     "asset": "res://assets/ui/modules/friends/part-03.png"
+    },
+    {
+     "name": "好友内容",
+     "rect": [
+      274,
+      112,
+      554,
+      400
+     ],
+     "status": "待补素材",
+     "id": "friends.part-04",
+     "asset": "res://assets/ui/modules/friends/part-04.png"
+    },
+    {
+     "name": "好友操作",
+     "rect": [
+      12,
+      524,
+      816,
+      70
+     ],
+     "status": "待补素材",
+     "id": "friends.part-05",
+     "asset": "res://assets/ui/modules/friends/part-05.png"
+    }
+   ]
+  },
+  "guild": {
+   "name": "公会",
+   "rect": [
+    540,
+    110,
+    840,
+    620
+   ],
+   "basis": "仅入口或同类组件参考；缺完整窗口图证，内部四区为推定预留",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "公会标题",
+     "rect": [
+      0,
+      0,
+      782,
+      46
+     ],
+     "status": "待补素材",
+     "id": "guild.part-00",
+     "asset": "res://assets/ui/modules/guild/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      788,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "guild.part-01",
+     "asset": "res://assets/ui/modules/guild/part-01.png"
+    },
+    {
+     "name": "公会页签",
+     "rect": [
+      12,
+      58,
+      816,
+      42
+     ],
+     "status": "待补素材",
+     "id": "guild.part-02",
+     "asset": "res://assets/ui/modules/guild/part-02.png"
+    },
+    {
+     "name": "公会列表",
+     "rect": [
+      12,
+      112,
+      250,
+      400
+     ],
+     "status": "待补素材",
+     "id": "guild.part-03",
+     "asset": "res://assets/ui/modules/guild/part-03.png"
+    },
+    {
+     "name": "公会内容",
+     "rect": [
+      274,
+      112,
+      554,
+      400
+     ],
+     "status": "待补素材",
+     "id": "guild.part-04",
+     "asset": "res://assets/ui/modules/guild/part-04.png"
+    },
+    {
+     "name": "公会操作",
+     "rect": [
+      12,
+      524,
+      816,
+      70
+     ],
+     "status": "待补素材",
+     "id": "guild.part-05",
+     "asset": "res://assets/ui/modules/guild/part-05.png"
+    }
+   ]
+  },
+  "nation": {
+   "name": "国家",
+   "rect": [
+    540,
+    110,
+    840,
+    620
+   ],
+   "basis": "仅入口或同类组件参考；缺完整窗口图证，内部四区为推定预留",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "国家标题",
+     "rect": [
+      0,
+      0,
+      782,
+      46
+     ],
+     "status": "待补素材",
+     "id": "nation.part-00",
+     "asset": "res://assets/ui/modules/nation/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      788,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "nation.part-01",
+     "asset": "res://assets/ui/modules/nation/part-01.png"
+    },
+    {
+     "name": "国家页签",
+     "rect": [
+      12,
+      58,
+      816,
+      42
+     ],
+     "status": "待补素材",
+     "id": "nation.part-02",
+     "asset": "res://assets/ui/modules/nation/part-02.png"
+    },
+    {
+     "name": "国家列表",
+     "rect": [
+      12,
+      112,
+      250,
+      400
+     ],
+     "status": "待补素材",
+     "id": "nation.part-03",
+     "asset": "res://assets/ui/modules/nation/part-03.png"
+    },
+    {
+     "name": "国家内容",
+     "rect": [
+      274,
+      112,
+      554,
+      400
+     ],
+     "status": "待补素材",
+     "id": "nation.part-04",
+     "asset": "res://assets/ui/modules/nation/part-04.png"
+    },
+    {
+     "name": "国家操作",
+     "rect": [
+      12,
+      524,
+      816,
+      70
+     ],
+     "status": "待补素材",
+     "id": "nation.part-05",
+     "asset": "res://assets/ui/modules/nation/part-05.png"
+    }
+   ]
+  },
+  "mall": {
+   "name": "商城",
+   "rect": [
+    540,
+    110,
+    840,
+    620
+   ],
+   "basis": "仅入口或同类组件参考；缺完整窗口图证，内部四区为推定预留",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "商城标题",
+     "rect": [
+      0,
+      0,
+      782,
+      46
+     ],
+     "status": "待补素材",
+     "id": "mall.part-00",
+     "asset": "res://assets/ui/modules/mall/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      788,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "mall.part-01",
+     "asset": "res://assets/ui/modules/mall/part-01.png"
+    },
+    {
+     "name": "商城页签",
+     "rect": [
+      12,
+      58,
+      816,
+      42
+     ],
+     "status": "待补素材",
+     "id": "mall.part-02",
+     "asset": "res://assets/ui/modules/mall/part-02.png"
+    },
+    {
+     "name": "商城列表",
+     "rect": [
+      12,
+      112,
+      250,
+      400
+     ],
+     "status": "待补素材",
+     "id": "mall.part-03",
+     "asset": "res://assets/ui/modules/mall/part-03.png"
+    },
+    {
+     "name": "商城内容",
+     "rect": [
+      274,
+      112,
+      554,
+      400
+     ],
+     "status": "待补素材",
+     "id": "mall.part-04",
+     "asset": "res://assets/ui/modules/mall/part-04.png"
+    },
+    {
+     "name": "商城操作",
+     "rect": [
+      12,
+      524,
+      816,
+      70
+     ],
+     "status": "待补素材",
+     "id": "mall.part-05",
+     "asset": "res://assets/ui/modules/mall/part-05.png"
+    }
+   ]
+  },
+  "mail": {
+   "name": "邮件",
+   "rect": [
+    540,
+    110,
+    840,
+    620
+   ],
+   "basis": "仅入口或同类组件参考；缺完整窗口图证，内部四区为推定预留",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "邮件标题",
+     "rect": [
+      0,
+      0,
+      782,
+      46
+     ],
+     "status": "待补素材",
+     "id": "mail.part-00",
+     "asset": "res://assets/ui/modules/mail/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      788,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "mail.part-01",
+     "asset": "res://assets/ui/modules/mail/part-01.png"
+    },
+    {
+     "name": "邮件页签",
+     "rect": [
+      12,
+      58,
+      816,
+      42
+     ],
+     "status": "待补素材",
+     "id": "mail.part-02",
+     "asset": "res://assets/ui/modules/mail/part-02.png"
+    },
+    {
+     "name": "邮件列表",
+     "rect": [
+      12,
+      112,
+      250,
+      400
+     ],
+     "status": "待补素材",
+     "id": "mail.part-03",
+     "asset": "res://assets/ui/modules/mail/part-03.png"
+    },
+    {
+     "name": "邮件内容",
+     "rect": [
+      274,
+      112,
+      554,
+      400
+     ],
+     "status": "待补素材",
+     "id": "mail.part-04",
+     "asset": "res://assets/ui/modules/mail/part-04.png"
+    },
+    {
+     "name": "邮件操作",
+     "rect": [
+      12,
+      524,
+      816,
+      70
+     ],
+     "status": "待补素材",
+     "id": "mail.part-05",
+     "asset": "res://assets/ui/modules/mail/part-05.png"
+    }
+   ]
+  },
+  "auction": {
+   "name": "拍卖",
+   "rect": [
+    540,
+    110,
+    840,
+    620
+   ],
+   "basis": "仅入口或同类组件参考；缺完整窗口图证，内部四区为推定预留",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "拍卖标题",
+     "rect": [
+      0,
+      0,
+      782,
+      46
+     ],
+     "status": "待补素材",
+     "id": "auction.part-00",
+     "asset": "res://assets/ui/modules/auction/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      788,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "auction.part-01",
+     "asset": "res://assets/ui/modules/auction/part-01.png"
+    },
+    {
+     "name": "拍卖页签",
+     "rect": [
+      12,
+      58,
+      816,
+      42
+     ],
+     "status": "待补素材",
+     "id": "auction.part-02",
+     "asset": "res://assets/ui/modules/auction/part-02.png"
+    },
+    {
+     "name": "拍卖列表",
+     "rect": [
+      12,
+      112,
+      250,
+      400
+     ],
+     "status": "待补素材",
+     "id": "auction.part-03",
+     "asset": "res://assets/ui/modules/auction/part-03.png"
+    },
+    {
+     "name": "拍卖内容",
+     "rect": [
+      274,
+      112,
+      554,
+      400
+     ],
+     "status": "待补素材",
+     "id": "auction.part-04",
+     "asset": "res://assets/ui/modules/auction/part-04.png"
+    },
+    {
+     "name": "拍卖操作",
+     "rect": [
+      12,
+      524,
+      816,
+      70
+     ],
+     "status": "待补素材",
+     "id": "auction.part-05",
+     "asset": "res://assets/ui/modules/auction/part-05.png"
+    }
+   ]
+  },
+  "settings": {
+   "name": "设置",
+   "rect": [
+    540,
+    110,
+    840,
+    620
+   ],
+   "basis": "仅入口或同类组件参考；缺完整窗口图证，内部四区为推定预留",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "设置标题",
+     "rect": [
+      0,
+      0,
+      782,
+      46
+     ],
+     "status": "待补素材",
+     "id": "settings.part-00",
+     "asset": "res://assets/ui/modules/settings/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      788,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "settings.part-01",
+     "asset": "res://assets/ui/modules/settings/part-01.png"
+    },
+    {
+     "name": "设置页签",
+     "rect": [
+      12,
+      58,
+      816,
+      42
+     ],
+     "status": "待补素材",
+     "id": "settings.part-02",
+     "asset": "res://assets/ui/modules/settings/part-02.png"
+    },
+    {
+     "name": "设置列表",
+     "rect": [
+      12,
+      112,
+      250,
+      400
+     ],
+     "status": "待补素材",
+     "id": "settings.part-03",
+     "asset": "res://assets/ui/modules/settings/part-03.png"
+    },
+    {
+     "name": "设置内容",
+     "rect": [
+      274,
+      112,
+      554,
+      400
+     ],
+     "status": "待补素材",
+     "id": "settings.part-04",
+     "asset": "res://assets/ui/modules/settings/part-04.png"
+    },
+    {
+     "name": "设置操作",
+     "rect": [
+      12,
+      524,
+      816,
+      70
+     ],
+     "status": "待补素材",
+     "id": "settings.part-05",
+     "asset": "res://assets/ui/modules/settings/part-05.png"
+    }
+   ]
+  },
+  "events": {
+   "name": "活动",
+   "rect": [
+    540,
+    110,
+    840,
+    620
+   ],
+   "basis": "仅入口或同类组件参考；缺完整窗口图证，内部四区为推定预留",
+   "status": "待补素材",
+   "modules": [
+    {
+     "name": "活动标题",
+     "rect": [
+      0,
+      0,
+      782,
+      46
+     ],
+     "status": "待补素材",
+     "id": "events.part-00",
+     "asset": "res://assets/ui/modules/events/part-00.png"
+    },
+    {
+     "name": "关闭",
+     "rect": [
+      788,
+      0,
+      52,
+      46
+     ],
+     "status": "待补素材",
+     "action": "close",
+     "id": "events.part-01",
+     "asset": "res://assets/ui/modules/events/part-01.png"
+    },
+    {
+     "name": "活动页签",
+     "rect": [
+      12,
+      58,
+      816,
+      42
+     ],
+     "status": "待补素材",
+     "id": "events.part-02",
+     "asset": "res://assets/ui/modules/events/part-02.png"
+    },
+    {
+     "name": "活动列表",
+     "rect": [
+      12,
+      112,
+      250,
+      400
+     ],
+     "status": "待补素材",
+     "id": "events.part-03",
+     "asset": "res://assets/ui/modules/events/part-03.png"
+    },
+    {
+     "name": "活动内容",
+     "rect": [
+      274,
+      112,
+      554,
+      400
+     ],
+     "status": "待补素材",
+     "id": "events.part-04",
+     "asset": "res://assets/ui/modules/events/part-04.png"
+    },
+    {
+     "name": "活动操作",
+     "rect": [
+      12,
+      524,
+      816,
+      70
+     ],
+     "status": "待补素材",
+     "id": "events.part-05",
+     "asset": "res://assets/ui/modules/events/part-05.png"
+    }
+   ]
+  }
+ },
+ "note": "HUD坐标依据用户截图；窗口内部坐标为UI画布中的局部预留，不能当作已考证原作尺寸。"
+}

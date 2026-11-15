@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "status": "推定",
+    "source": "2026-11-13 用户拍板（装备绑定 / 红名掉落 / 罪恶值 / 监狱 / PK 模式 / 攻击门槛 / 名字颜色）",
+    "note": "机制为用户口径；红名线与监狱时长为可玩基线；单机没有真实玩家，红名、监狱、掉落规则先入表，多人阶段才实际生效"
+  },
+  "binding": {
+    "bind_on_equip_qualities": ["卓越", "完美"],
+    "others_bind_on_equip": false,
+    "drop_when_binding": false,
+    "status": "已定",
+    "source": "2026-11-13 用户拍板：卓越与完美穿戴自动绑定，其余不绑定"
+  },
+  "pk_modes": {
+    "options": [
+      { "id": "nation", "name": "国家模式", "enemy": "different_nation", "friendly": "same_nation" },
+      { "id": "party", "name": "组队模式", "enemy": "not_in_party", "friendly": "in_party" },
+      { "id": "guild", "name": "公会模式", "enemy": "not_in_guild", "friendly": "in_guild" },
+      { "id": "pk", "name": "PK模式", "enemy": "everyone_except_party", "friendly": "in_party" }
+    ],
+    "default": "nation",
+    "ui_position": "top_left",
+    "status": "已定",
+    "source": "2026-11-13 用户拍板：国家 / 组队 / 公会 / PK 四种模式，PK 模式可攻击同国玩家"
+  },
+  "zone_rule": {
+    "min_level": 20,
+    "requires_non_safe_zone": true,
+    "status": "已定",
+    "source": "2026-11-13 用户拍板：20 级以上、非安全区地图区域才能攻击",
+    "note": "哪几张图算安全区尚未指定，maps 表暂未打标"
+  },
+  "name_color": {
+    "enemy_nation": "red",
+    "same_nation_with_sin": "red",
+    "same_nation_clean": "default",
+    "status": "已定",
+    "source": "2026-11-13 用户拍板：敌国默认红名，同国有杀戮值显示红名"
+  },
+  "red_name": {
+    "always_attackable": true,
+    "ignores_pk_mode": true,
+    "status": "已定",
+    "source": "2026-11-13 用户拍板：对方红名时任何模式都可直接攻击"
+  },
+  "gate_guards": {
+    "map_id": "muguang_plain",
+    "gate_count": null,
+    "per_gate": 2,
+    "class_name": "游侠",
+    "auto_attack": true,
+    "targets": ["enemy_nation", "same_nation_with_sin"],
+    "respawn_sec": 30,
+    "status": "已定",
+    "note": "城门数量图上未标注，待补"
+  },
+  "sin": {
+    "gain_per_nation_kill": 50,
+    "reduction_per_monster_kill": 1,
+    "decay_per_minute": 10,
+    "red_name_threshold": 30,
+    "jail_threshold": 1000,
+    "jail_duration_sec": 600,
+    "red_name_drop_equipment_count": 1,
+    "status": "推定",
+    "source": "机制为用户拍板（+50 / 1000 / 每分钟 -10 / 杀怪 -1）；红名线 30 与监狱时长 600 秒为 baseline"
+  }
+}

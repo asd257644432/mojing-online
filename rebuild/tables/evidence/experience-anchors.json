@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "status": "图证",
+    "source": "用户提供高清游戏截图"
+  },
+  "observations": [
+    {
+      "level": 133,
+      "current_exp": 172562713,
+      "exp_to_next": 580047075,
+      "display_percent": 29,
+      "status": "图证",
+      "source": "resources/images/界面与图标/用户提供/归档原件/user-ui-20261114/level133-exp.png",
+      "sha256": "d5889d5c398199e7767504858c0f472870dc66b79a10f7782c68c92f74fc7b12",
+      "percent_rounding": "向下取整与本截图相符，规则仍为推断"
+    }
+  ]
+}
