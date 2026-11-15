@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+web/saves/
+*.log
+.DS_Store
+Thumbs.db
+
+# 根 .gitignore 用 data/ 排除了本地数据目录；本目录下服务器读的这份需要入库
+!web/server/data/

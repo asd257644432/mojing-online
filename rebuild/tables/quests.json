@@ -1,0 +1,2388 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "status": "推定",
+    "source": "baseline-2026-11-13-v3",
+    "rule": "每张图按 2 级一段生成主线；每段经验 = 该段升级累计 × 110%；奖励含绑定金",
+    "quest_count": 108,
+    "note": "任务名与文本无图证，统一用占位名；目标怪取自该图实际怪物表"
+  },
+  "quests": [
+    {
+      "id": "mq_001",
+      "name": "主线·遗迹之岛01",
+      "type": "main",
+      "map": "ruins_island",
+      "map_name": "遗迹之岛",
+      "level_min": 1,
+      "level_max": 3,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_001",
+        "target_name": "稻草人",
+        "target_level": 4,
+        "count": 8
+      },
+      "reward": {
+        "exp": 488,
+        "bound_gold": 2
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_002",
+      "name": "主线·遗迹之岛02",
+      "type": "main",
+      "map": "ruins_island",
+      "map_name": "遗迹之岛",
+      "level_min": 3,
+      "level_max": 5,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_002",
+        "target_name": "兔子",
+        "target_level": 6,
+        "count": 8
+      },
+      "reward": {
+        "exp": 727,
+        "bound_gold": 6
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_003",
+      "name": "主线·遗迹之岛03",
+      "type": "main",
+      "map": "ruins_island",
+      "map_name": "遗迹之岛",
+      "level_min": 5,
+      "level_max": 6,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_003",
+        "target_name": "小蘑菇",
+        "target_level": 8,
+        "count": 9
+      },
+      "reward": {
+        "exp": 487,
+        "bound_gold": 10
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_004",
+      "name": "主线·遗迹之岛04",
+      "type": "main",
+      "map": "ruins_island",
+      "map_name": "遗迹之岛",
+      "level_min": 6,
+      "level_max": 8,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_004",
+        "target_name": "大蘑菇",
+        "target_level": 10,
+        "count": 9
+      },
+      "reward": {
+        "exp": 1321,
+        "bound_gold": 12
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_005",
+      "name": "主线·遗迹之岛05",
+      "type": "main",
+      "map": "ruins_island",
+      "map_name": "遗迹之岛",
+      "level_min": 8,
+      "level_max": 10,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_001",
+        "target_name": "稻草人",
+        "target_level": 4,
+        "count": 9
+      },
+      "reward": {
+        "exp": 1968,
+        "bound_gold": 16
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_006",
+      "name": "主线·沐光平原01",
+      "type": "main",
+      "map": "muguang_plain",
+      "map_name": "沐光平原",
+      "level_min": 10,
+      "level_max": 12,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_005",
+        "target_name": "蝴蝶",
+        "target_level": 11,
+        "count": 10
+      },
+      "reward": {
+        "exp": 2790,
+        "bound_gold": 20
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_007",
+      "name": "主线·沐光平原02",
+      "type": "main",
+      "map": "muguang_plain",
+      "map_name": "沐光平原",
+      "level_min": 12,
+      "level_max": 14,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_006",
+        "target_name": "魔域",
+        "target_level": 12,
+        "count": 10
+      },
+      "reward": {
+        "exp": 3454,
+        "bound_gold": 24
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_008",
+      "name": "主线·沐光平原03",
+      "type": "main",
+      "map": "muguang_plain",
+      "map_name": "沐光平原",
+      "level_min": 14,
+      "level_max": 16,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_008",
+        "target_name": "魔域毒蜂",
+        "target_level": 15,
+        "count": 10
+      },
+      "reward": {
+        "exp": 4279,
+        "bound_gold": 28
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_009",
+      "name": "主线·沐光平原04",
+      "type": "main",
+      "map": "muguang_plain",
+      "map_name": "沐光平原",
+      "level_min": 16,
+      "level_max": 18,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_009",
+        "target_name": "魔域狂蜂",
+        "target_level": 18,
+        "count": 11
+      },
+      "reward": {
+        "exp": 5302,
+        "bound_gold": 32
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_010",
+      "name": "主线·沐光平原05",
+      "type": "main",
+      "map": "muguang_plain",
+      "map_name": "沐光平原",
+      "level_min": 18,
+      "level_max": 20,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_010",
+        "target_name": "魔域狐狸",
+        "target_level": 19,
+        "count": 11
+      },
+      "reward": {
+        "exp": 6567,
+        "bound_gold": 36
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_011",
+      "name": "主线·沐光平原06",
+      "type": "main",
+      "map": "muguang_plain",
+      "map_name": "沐光平原",
+      "level_min": 20,
+      "level_max": 22,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_011",
+        "target_name": "暗黑海盗",
+        "target_level": 26,
+        "count": 12
+      },
+      "reward": {
+        "exp": 8082,
+        "bound_gold": 40
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_012",
+      "name": "主线·沐光平原07",
+      "type": "main",
+      "map": "muguang_plain",
+      "map_name": "沐光平原",
+      "level_min": 22,
+      "level_max": 24,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_005",
+        "target_name": "蝴蝶",
+        "target_level": 11,
+        "count": 12
+      },
+      "reward": {
+        "exp": 9761,
+        "bound_gold": 44
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_013",
+      "name": "主线·沐光平原08",
+      "type": "main",
+      "map": "muguang_plain",
+      "map_name": "沐光平原",
+      "level_min": 24,
+      "level_max": 26,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_006",
+        "target_name": "魔域",
+        "target_level": 12,
+        "count": 12
+      },
+      "reward": {
+        "exp": 11791,
+        "bound_gold": 48
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_014",
+      "name": "主线·沐光平原09",
+      "type": "main",
+      "map": "muguang_plain",
+      "map_name": "沐光平原",
+      "level_min": 26,
+      "level_max": 28,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_008",
+        "target_name": "魔域毒蜂",
+        "target_level": 15,
+        "count": 13
+      },
+      "reward": {
+        "exp": 14242,
+        "bound_gold": 52
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_015",
+      "name": "主线·沐光平原10",
+      "type": "main",
+      "map": "muguang_plain",
+      "map_name": "沐光平原",
+      "level_min": 28,
+      "level_max": 30,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_014",
+        "target_name": "魔域狼王（王）",
+        "target_level": 30,
+        "count": 1
+      },
+      "reward": {
+        "exp": 17204,
+        "bound_gold": 56
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_016",
+      "name": "主线·风之谷01",
+      "type": "main",
+      "map": "wind_valley",
+      "map_name": "风之谷",
+      "level_min": 20,
+      "level_max": 22,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_015",
+        "target_name": "魔怪向日葵",
+        "target_level": 20,
+        "count": 12
+      },
+      "reward": {
+        "exp": 8082,
+        "bound_gold": 40
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_017",
+      "name": "主线·风之谷02",
+      "type": "main",
+      "map": "wind_valley",
+      "map_name": "风之谷",
+      "level_min": 22,
+      "level_max": 24,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_017",
+        "target_name": "狂风魔兵",
+        "target_level": 22,
+        "count": 12
+      },
+      "reward": {
+        "exp": 9761,
+        "bound_gold": 44
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_018",
+      "name": "主线·风之谷03",
+      "type": "main",
+      "map": "wind_valley",
+      "map_name": "风之谷",
+      "level_min": 24,
+      "level_max": 26,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_019",
+        "target_name": "狂蜂",
+        "target_level": 30,
+        "count": 12
+      },
+      "reward": {
+        "exp": 11791,
+        "bound_gold": 48
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_019",
+      "name": "主线·风之谷04",
+      "type": "main",
+      "map": "wind_valley",
+      "map_name": "风之谷",
+      "level_min": 26,
+      "level_max": 28,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_020",
+        "target_name": "护卫蜂",
+        "target_level": 30,
+        "count": 13
+      },
+      "reward": {
+        "exp": 14242,
+        "bound_gold": 52
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_020",
+      "name": "主线·风之谷05",
+      "type": "main",
+      "map": "wind_valley",
+      "map_name": "风之谷",
+      "level_min": 28,
+      "level_max": 30,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_021",
+        "target_name": "邪恶蜂皇",
+        "target_level": 30,
+        "count": 1
+      },
+      "reward": {
+        "exp": 17204,
+        "bound_gold": 56
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_021",
+      "name": "主线·旷野森林01",
+      "type": "main",
+      "map": "wilderness_forest",
+      "map_name": "旷野森林",
+      "level_min": 30,
+      "level_max": 32,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_022",
+        "target_name": "斥候",
+        "target_level": 32,
+        "count": 14
+      },
+      "reward": {
+        "exp": 20725,
+        "bound_gold": 60
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_022",
+      "name": "主线·旷野森林02",
+      "type": "main",
+      "map": "wilderness_forest",
+      "map_name": "旷野森林",
+      "level_min": 32,
+      "level_max": 34,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_023",
+        "target_name": "佣兵战士",
+        "target_level": 34,
+        "count": 14
+      },
+      "reward": {
+        "exp": 24783,
+        "bound_gold": 64
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_023",
+      "name": "主线·旷野森林03",
+      "type": "main",
+      "map": "wilderness_forest",
+      "map_name": "旷野森林",
+      "level_min": 34,
+      "level_max": 36,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_024",
+        "target_name": "树灵魔",
+        "target_level": 35,
+        "count": 14
+      },
+      "reward": {
+        "exp": 29633,
+        "bound_gold": 68
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_024",
+      "name": "主线·旷野森林04",
+      "type": "main",
+      "map": "wilderness_forest",
+      "map_name": "旷野森林",
+      "level_min": 36,
+      "level_max": 38,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_025",
+        "target_name": "佣兵战骑",
+        "target_level": 35,
+        "count": 15
+      },
+      "reward": {
+        "exp": 35434,
+        "bound_gold": 72
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_025",
+      "name": "主线·旷野森林05",
+      "type": "main",
+      "map": "wilderness_forest",
+      "map_name": "旷野森林",
+      "level_min": 38,
+      "level_max": 40,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_030",
+        "target_name": "七灵法师哈台",
+        "target_level": 40,
+        "count": 1
+      },
+      "reward": {
+        "exp": 42370,
+        "bound_gold": 76
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_026",
+      "name": "主线·雪原01",
+      "type": "main",
+      "map": "snowfield",
+      "map_name": "雪原",
+      "level_min": 40,
+      "level_max": 42,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_032",
+        "target_name": "雪狼（物）",
+        "target_level": 42,
+        "count": 16
+      },
+      "reward": {
+        "exp": 50195,
+        "bound_gold": 80
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_027",
+      "name": "主线·雪原02",
+      "type": "main",
+      "map": "snowfield",
+      "map_name": "雪原",
+      "level_min": 42,
+      "level_max": 44,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_033",
+        "target_name": "雪狼（魔）",
+        "target_level": 42,
+        "count": 16
+      },
+      "reward": {
+        "exp": 57918,
+        "bound_gold": 84
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_028",
+      "name": "主线·雪原03",
+      "type": "main",
+      "map": "snowfield",
+      "map_name": "雪原",
+      "level_min": 44,
+      "level_max": 46,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_034",
+        "target_name": "雪狐（物）",
+        "target_level": 42,
+        "count": 16
+      },
+      "reward": {
+        "exp": 66830,
+        "bound_gold": 88
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_029",
+      "name": "主线·雪原04",
+      "type": "main",
+      "map": "snowfield",
+      "map_name": "雪原",
+      "level_min": 46,
+      "level_max": 48,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_035",
+        "target_name": "雪狐（魔）",
+        "target_level": 42,
+        "count": 17
+      },
+      "reward": {
+        "exp": 77114,
+        "bound_gold": 92
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_030",
+      "name": "主线·雪原05",
+      "type": "main",
+      "map": "snowfield",
+      "map_name": "雪原",
+      "level_min": 48,
+      "level_max": 50,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_036",
+        "target_name": "雪猿（物）",
+        "target_level": 42,
+        "count": 17
+      },
+      "reward": {
+        "exp": 88980,
+        "bound_gold": 96
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_031",
+      "name": "主线·雪原06",
+      "type": "main",
+      "map": "snowfield",
+      "map_name": "雪原",
+      "level_min": 50,
+      "level_max": 52,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_037",
+        "target_name": "雪狼",
+        "target_level": 43,
+        "count": 18
+      },
+      "reward": {
+        "exp": 102553,
+        "bound_gold": 100
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_032",
+      "name": "主线·雪原07",
+      "type": "main",
+      "map": "snowfield",
+      "map_name": "雪原",
+      "level_min": 52,
+      "level_max": 54,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_050",
+        "target_name": "七灵法师哈伦",
+        "target_level": 52,
+        "count": 1
+      },
+      "reward": {
+        "exp": 117801,
+        "bound_gold": 104
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_033",
+      "name": "主线·生命之境01",
+      "type": "main",
+      "map": "life_realm",
+      "map_name": "生命之境",
+      "level_min": 50,
+      "level_max": 52,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_052",
+        "target_name": "戈多族民（材）",
+        "target_level": 52,
+        "count": 18
+      },
+      "reward": {
+        "exp": 102553,
+        "bound_gold": 100
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_034",
+      "name": "主线·生命之境02",
+      "type": "main",
+      "map": "life_realm",
+      "map_name": "生命之境",
+      "level_min": 52,
+      "level_max": 54,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_053",
+        "target_name": "戈多族民（魔）",
+        "target_level": 52,
+        "count": 18
+      },
+      "reward": {
+        "exp": 117801,
+        "bound_gold": 104
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_035",
+      "name": "主线·生命之境03",
+      "type": "main",
+      "map": "life_realm",
+      "map_name": "生命之境",
+      "level_min": 54,
+      "level_max": 56,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_054",
+        "target_name": "巨鼠（材）",
+        "target_level": 58,
+        "count": 18
+      },
+      "reward": {
+        "exp": 135320,
+        "bound_gold": 108
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_036",
+      "name": "主线·生命之境04",
+      "type": "main",
+      "map": "life_realm",
+      "map_name": "生命之境",
+      "level_min": 56,
+      "level_max": 58,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_055",
+        "target_name": "巨鼠（魔）",
+        "target_level": 58,
+        "count": 19
+      },
+      "reward": {
+        "exp": 155441,
+        "bound_gold": 112
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_037",
+      "name": "主线·生命之境05",
+      "type": "main",
+      "map": "life_realm",
+      "map_name": "生命之境",
+      "level_min": 58,
+      "level_max": 60,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_059",
+        "target_name": "双头魔龙",
+        "target_level": 64,
+        "count": 19
+      },
+      "reward": {
+        "exp": 178555,
+        "bound_gold": 116
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_038",
+      "name": "主线·生命之境06",
+      "type": "main",
+      "map": "life_realm",
+      "map_name": "生命之境",
+      "level_min": 60,
+      "level_max": 62,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_052",
+        "target_name": "戈多族民（材）",
+        "target_level": 52,
+        "count": 20
+      },
+      "reward": {
+        "exp": 204501,
+        "bound_gold": 120
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_039",
+      "name": "主线·生命之境07",
+      "type": "main",
+      "map": "life_realm",
+      "map_name": "生命之境",
+      "level_min": 62,
+      "level_max": 64,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_053",
+        "target_name": "戈多族民（魔）",
+        "target_level": 52,
+        "count": 20
+      },
+      "reward": {
+        "exp": 232240,
+        "bound_gold": 124
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_040",
+      "name": "主线·生命之境08",
+      "type": "main",
+      "map": "life_realm",
+      "map_name": "生命之境",
+      "level_min": 64,
+      "level_max": 66,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_054",
+        "target_name": "巨鼠（材）",
+        "target_level": 58,
+        "count": 20
+      },
+      "reward": {
+        "exp": 263740,
+        "bound_gold": 128
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_041",
+      "name": "主线·冰晶山01",
+      "type": "main",
+      "map": "ice_mountain",
+      "map_name": "冰晶山",
+      "level_min": 45,
+      "level_max": 47,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_061",
+        "target_name": "雪女（物）",
+        "target_level": 48,
+        "count": 17
+      },
+      "reward": {
+        "exp": 71788,
+        "bound_gold": 90
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_042",
+      "name": "主线·冰晶山02",
+      "type": "main",
+      "map": "ice_mountain",
+      "map_name": "冰晶山",
+      "level_min": 47,
+      "level_max": 49,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_062",
+        "target_name": "雪女（魔）",
+        "target_level": 48,
+        "count": 17
+      },
+      "reward": {
+        "exp": 82836,
+        "bound_gold": 94
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_043",
+      "name": "主线·冰晶山03",
+      "type": "main",
+      "map": "ice_mountain",
+      "map_name": "冰晶山",
+      "level_min": 49,
+      "level_max": 51,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_064",
+        "target_name": "雪狼（物）冰",
+        "target_level": 54,
+        "count": 17
+      },
+      "reward": {
+        "exp": 95581,
+        "bound_gold": 98
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_044",
+      "name": "主线·冰晶山04",
+      "type": "main",
+      "map": "ice_mountain",
+      "map_name": "冰晶山",
+      "level_min": 51,
+      "level_max": 53,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_065",
+        "target_name": "雪狼（魔）冰",
+        "target_level": 54,
+        "count": 18
+      },
+      "reward": {
+        "exp": 109913,
+        "bound_gold": 102
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_045",
+      "name": "主线·冰晶山05",
+      "type": "main",
+      "map": "ice_mountain",
+      "map_name": "冰晶山",
+      "level_min": 53,
+      "level_max": 54,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_067",
+        "target_name": "熊怪（物）",
+        "target_level": 58,
+        "count": 18
+      },
+      "reward": {
+        "exp": 60941,
+        "bound_gold": 106
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_046",
+      "name": "主线·冰晶山06",
+      "type": "main",
+      "map": "ice_mountain",
+      "map_name": "冰晶山",
+      "level_min": 54,
+      "level_max": 56,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_068",
+        "target_name": "熊怪（魔）",
+        "target_level": 58,
+        "count": 18
+      },
+      "reward": {
+        "exp": 135320,
+        "bound_gold": 108
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_047",
+      "name": "主线·冰晶山07",
+      "type": "main",
+      "map": "ice_mountain",
+      "map_name": "冰晶山",
+      "level_min": 56,
+      "level_max": 58,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_070",
+        "target_name": "冰晶魔狐",
+        "target_level": 64,
+        "count": 19
+      },
+      "reward": {
+        "exp": 155441,
+        "bound_gold": 112
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_048",
+      "name": "主线·冰晶山08",
+      "type": "main",
+      "map": "ice_mountain",
+      "map_name": "冰晶山",
+      "level_min": 58,
+      "level_max": 60,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_061",
+        "target_name": "雪女（物）",
+        "target_level": 48,
+        "count": 19
+      },
+      "reward": {
+        "exp": 178555,
+        "bound_gold": 116
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_049",
+      "name": "主线·冰晶山09",
+      "type": "main",
+      "map": "ice_mountain",
+      "map_name": "冰晶山",
+      "level_min": 60,
+      "level_max": 62,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_062",
+        "target_name": "雪女（魔）",
+        "target_level": 48,
+        "count": 20
+      },
+      "reward": {
+        "exp": 204501,
+        "bound_gold": 120
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_050",
+      "name": "主线·冰晶山10",
+      "type": "main",
+      "map": "ice_mountain",
+      "map_name": "冰晶山",
+      "level_min": 62,
+      "level_max": 64,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_071",
+        "target_name": "冰晶怪（BOSS）",
+        "target_level": 64,
+        "count": 1
+      },
+      "reward": {
+        "exp": 232240,
+        "bound_gold": 124
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_051",
+      "name": "主线·荒芜之地01",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 60,
+      "level_max": 62,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_072",
+        "target_name": "仙人掌（物）",
+        "target_level": 62,
+        "count": 20
+      },
+      "reward": {
+        "exp": 204501,
+        "bound_gold": 120
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_052",
+      "name": "主线·荒芜之地02",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 62,
+      "level_max": 64,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_073",
+        "target_name": "仙人掌（魔）",
+        "target_level": 62,
+        "count": 20
+      },
+      "reward": {
+        "exp": 232240,
+        "bound_gold": 124
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_053",
+      "name": "主线·荒芜之地03",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 64,
+      "level_max": 66,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_075",
+        "target_name": "秃鹰（物）",
+        "target_level": 66,
+        "count": 20
+      },
+      "reward": {
+        "exp": 263740,
+        "bound_gold": 128
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_054",
+      "name": "主线·荒芜之地04",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 66,
+      "level_max": 68,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_076",
+        "target_name": "秃鹰（魔）",
+        "target_level": 66,
+        "count": 21
+      },
+      "reward": {
+        "exp": 299515,
+        "bound_gold": 132
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_055",
+      "name": "主线·荒芜之地05",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 68,
+      "level_max": 70,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_078",
+        "target_name": "美人蝎（物）",
+        "target_level": 70,
+        "count": 21
+      },
+      "reward": {
+        "exp": 340142,
+        "bound_gold": 136
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_056",
+      "name": "主线·荒芜之地06",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 70,
+      "level_max": 72,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_079",
+        "target_name": "美人蝎（魔）",
+        "target_level": 70,
+        "count": 22
+      },
+      "reward": {
+        "exp": 386210,
+        "bound_gold": 140
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_057",
+      "name": "主线·荒芜之地07",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 72,
+      "level_max": 74,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_072",
+        "target_name": "仙人掌（物）",
+        "target_level": 62,
+        "count": 22
+      },
+      "reward": {
+        "exp": 438292,
+        "bound_gold": 144
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_058",
+      "name": "主线·荒芜之地08",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 74,
+      "level_max": 76,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_073",
+        "target_name": "仙人掌（魔）",
+        "target_level": 62,
+        "count": 22
+      },
+      "reward": {
+        "exp": 497398,
+        "bound_gold": 148
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_059",
+      "name": "主线·荒芜之地09",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 76,
+      "level_max": 78,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_075",
+        "target_name": "秃鹰（物）",
+        "target_level": 66,
+        "count": 23
+      },
+      "reward": {
+        "exp": 564474,
+        "bound_gold": 152
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_060",
+      "name": "主线·荒芜之地10",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 78,
+      "level_max": 80,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_076",
+        "target_name": "秃鹰（魔）",
+        "target_level": 66,
+        "count": 23
+      },
+      "reward": {
+        "exp": 640596,
+        "bound_gold": 156
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_061",
+      "name": "主线·荒芜之地11",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 80,
+      "level_max": 82,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_078",
+        "target_name": "美人蝎（物）",
+        "target_level": 70,
+        "count": 24
+      },
+      "reward": {
+        "exp": 724260,
+        "bound_gold": 160
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_062",
+      "name": "主线·荒芜之地12",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 82,
+      "level_max": 84,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_079",
+        "target_name": "美人蝎（魔）",
+        "target_level": 70,
+        "count": 24
+      },
+      "reward": {
+        "exp": 810032,
+        "bound_gold": 164
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_063",
+      "name": "主线·荒芜之地13",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 84,
+      "level_max": 86,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_072",
+        "target_name": "仙人掌（物）",
+        "target_level": 62,
+        "count": 24
+      },
+      "reward": {
+        "exp": 905961,
+        "bound_gold": 168
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_064",
+      "name": "主线·荒芜之地14",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 86,
+      "level_max": 88,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_073",
+        "target_name": "仙人掌（魔）",
+        "target_level": 62,
+        "count": 25
+      },
+      "reward": {
+        "exp": 1013252,
+        "bound_gold": 172
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_065",
+      "name": "主线·荒芜之地15",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 88,
+      "level_max": 89,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_075",
+        "target_name": "秃鹰（物）",
+        "target_level": 66,
+        "count": 25
+      },
+      "reward": {
+        "exp": 550773,
+        "bound_gold": 176
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_066",
+      "name": "主线·荒芜之地16",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 89,
+      "level_max": 91,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_076",
+        "target_name": "秃鹰（魔）",
+        "target_level": 66,
+        "count": 25
+      },
+      "reward": {
+        "exp": 1198474,
+        "bound_gold": 178
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_067",
+      "name": "主线·荒芜之地17",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 91,
+      "level_max": 93,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_078",
+        "target_name": "美人蝎（物）",
+        "target_level": 70,
+        "count": 26
+      },
+      "reward": {
+        "exp": 1344514,
+        "bound_gold": 182
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_068",
+      "name": "主线·荒芜之地18",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 93,
+      "level_max": 95,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_079",
+        "target_name": "美人蝎（魔）",
+        "target_level": 70,
+        "count": 26
+      },
+      "reward": {
+        "exp": 1509828,
+        "bound_gold": 186
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_069",
+      "name": "主线·荒芜之地19",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 95,
+      "level_max": 97,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_072",
+        "target_name": "仙人掌（物）",
+        "target_level": 62,
+        "count": 27
+      },
+      "reward": {
+        "exp": 1695469,
+        "bound_gold": 190
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_070",
+      "name": "主线·荒芜之地20",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 97,
+      "level_max": 99,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_073",
+        "target_name": "仙人掌（魔）",
+        "target_level": 62,
+        "count": 27
+      },
+      "reward": {
+        "exp": 1903936,
+        "bound_gold": 194
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_071",
+      "name": "主线·荒芜之地21",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 99,
+      "level_max": 101,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_075",
+        "target_name": "秃鹰（物）",
+        "target_level": 66,
+        "count": 27
+      },
+      "reward": {
+        "exp": 2138034,
+        "bound_gold": 198
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_072",
+      "name": "主线·荒芜之地22",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 101,
+      "level_max": 103,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_076",
+        "target_name": "秃鹰（魔）",
+        "target_level": 66,
+        "count": 28
+      },
+      "reward": {
+        "exp": 2403815,
+        "bound_gold": 202
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_073",
+      "name": "主线·荒芜之地23",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 103,
+      "level_max": 105,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_078",
+        "target_name": "美人蝎（物）",
+        "target_level": 70,
+        "count": 28
+      },
+      "reward": {
+        "exp": 2703682,
+        "bound_gold": 206
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_074",
+      "name": "主线·荒芜之地24",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 105,
+      "level_max": 107,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_079",
+        "target_name": "美人蝎（魔）",
+        "target_level": 70,
+        "count": 29
+      },
+      "reward": {
+        "exp": 3040956,
+        "bound_gold": 210
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_075",
+      "name": "主线·荒芜之地25",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 107,
+      "level_max": 109,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_072",
+        "target_name": "仙人掌（物）",
+        "target_level": 62,
+        "count": 29
+      },
+      "reward": {
+        "exp": 3420303,
+        "bound_gold": 214
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_076",
+      "name": "主线·荒芜之地26",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 109,
+      "level_max": 111,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_073",
+        "target_name": "仙人掌（魔）",
+        "target_level": 62,
+        "count": 29
+      },
+      "reward": {
+        "exp": 3846973,
+        "bound_gold": 218
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_077",
+      "name": "主线·荒芜之地27",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 111,
+      "level_max": 113,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_075",
+        "target_name": "秃鹰（物）",
+        "target_level": 66,
+        "count": 30
+      },
+      "reward": {
+        "exp": 4318734,
+        "bound_gold": 222
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_078",
+      "name": "主线·荒芜之地28",
+      "type": "main",
+      "map": "barren_land",
+      "map_name": "荒芜之地",
+      "level_min": 113,
+      "level_max": 115,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_084",
+        "target_name": "神魔忌童（BOSS）",
+        "target_level": 115,
+        "count": 1
+      },
+      "reward": {
+        "exp": 4845426,
+        "bound_gold": 226
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_079",
+      "name": "主线·死亡沼泽01",
+      "type": "main",
+      "map": "death_swamp",
+      "map_name": "死亡沼泽",
+      "level_min": 70,
+      "level_max": 72,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_085",
+        "target_name": "毒蛙（物）",
+        "target_level": 72,
+        "count": 22
+      },
+      "reward": {
+        "exp": 386210,
+        "bound_gold": 140
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_080",
+      "name": "主线·死亡沼泽02",
+      "type": "main",
+      "map": "death_swamp",
+      "map_name": "死亡沼泽",
+      "level_min": 72,
+      "level_max": 74,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_086",
+        "target_name": "毒蛙（魔）",
+        "target_level": 72,
+        "count": 22
+      },
+      "reward": {
+        "exp": 438292,
+        "bound_gold": 144
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_081",
+      "name": "主线·死亡沼泽03",
+      "type": "main",
+      "map": "death_swamp",
+      "map_name": "死亡沼泽",
+      "level_min": 74,
+      "level_max": 76,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_087",
+        "target_name": "死泽鳄虫（物）",
+        "target_level": 74,
+        "count": 22
+      },
+      "reward": {
+        "exp": 497398,
+        "bound_gold": 148
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_082",
+      "name": "主线·死亡沼泽04",
+      "type": "main",
+      "map": "death_swamp",
+      "map_name": "死亡沼泽",
+      "level_min": 76,
+      "level_max": 78,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_088",
+        "target_name": "死泽鳄虫（魔）",
+        "target_level": 74,
+        "count": 23
+      },
+      "reward": {
+        "exp": 564474,
+        "bound_gold": 152
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_083",
+      "name": "主线·死亡沼泽05",
+      "type": "main",
+      "map": "death_swamp",
+      "map_name": "死亡沼泽",
+      "level_min": 78,
+      "level_max": 80,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_091",
+        "target_name": "淤泥怪（物）",
+        "target_level": 76,
+        "count": 23
+      },
+      "reward": {
+        "exp": 640596,
+        "bound_gold": 156
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_084",
+      "name": "主线·死亡沼泽06",
+      "type": "main",
+      "map": "death_swamp",
+      "map_name": "死亡沼泽",
+      "level_min": 80,
+      "level_max": 82,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_092",
+        "target_name": "淤泥怪（魔）",
+        "target_level": 76,
+        "count": 24
+      },
+      "reward": {
+        "exp": 724260,
+        "bound_gold": 160
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_085",
+      "name": "主线·死亡沼泽07",
+      "type": "main",
+      "map": "death_swamp",
+      "map_name": "死亡沼泽",
+      "level_min": 82,
+      "level_max": 84,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_085",
+        "target_name": "毒蛙（物）",
+        "target_level": 72,
+        "count": 24
+      },
+      "reward": {
+        "exp": 810032,
+        "bound_gold": 164
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_086",
+      "name": "主线·死亡沼泽08",
+      "type": "main",
+      "map": "death_swamp",
+      "map_name": "死亡沼泽",
+      "level_min": 84,
+      "level_max": 86,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_086",
+        "target_name": "毒蛙（魔）",
+        "target_level": 72,
+        "count": 24
+      },
+      "reward": {
+        "exp": 905961,
+        "bound_gold": 168
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_087",
+      "name": "主线·死亡沼泽09",
+      "type": "main",
+      "map": "death_swamp",
+      "map_name": "死亡沼泽",
+      "level_min": 86,
+      "level_max": 88,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_087",
+        "target_name": "死泽鳄虫（物）",
+        "target_level": 74,
+        "count": 25
+      },
+      "reward": {
+        "exp": 1013252,
+        "bound_gold": 172
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_088",
+      "name": "主线·死亡沼泽10",
+      "type": "main",
+      "map": "death_swamp",
+      "map_name": "死亡沼泽",
+      "level_min": 88,
+      "level_max": 90,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_095",
+        "target_name": "史前巨鳄",
+        "target_level": 90,
+        "count": 1
+      },
+      "reward": {
+        "exp": 1133248,
+        "bound_gold": 176
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_089",
+      "name": "主线·绿洲01",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 80,
+      "level_max": 82,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_096",
+        "target_name": "仙人魔（物）",
+        "target_level": 80,
+        "count": 24
+      },
+      "reward": {
+        "exp": 724260,
+        "bound_gold": 160
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_090",
+      "name": "主线·绿洲02",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 82,
+      "level_max": 84,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_097",
+        "target_name": "仙人魔（魔）",
+        "target_level": 80,
+        "count": 24
+      },
+      "reward": {
+        "exp": 810032,
+        "bound_gold": 164
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_091",
+      "name": "主线·绿洲03",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 84,
+      "level_max": 86,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_099",
+        "target_name": "绿洲蛇魔（物）",
+        "target_level": 88,
+        "count": 24
+      },
+      "reward": {
+        "exp": 905961,
+        "bound_gold": 168
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_092",
+      "name": "主线·绿洲04",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 86,
+      "level_max": 88,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_100",
+        "target_name": "绿洲蛇魔（魔）",
+        "target_level": 88,
+        "count": 25
+      },
+      "reward": {
+        "exp": 1013252,
+        "bound_gold": 172
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_093",
+      "name": "主线·绿洲05",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 88,
+      "level_max": 90,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_102",
+        "target_name": "沙熊（物）",
+        "target_level": 90,
+        "count": 25
+      },
+      "reward": {
+        "exp": 1133248,
+        "bound_gold": 176
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_094",
+      "name": "主线·绿洲06",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 90,
+      "level_max": 92,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_104",
+        "target_name": "魔仆蝎女（物）",
+        "target_level": 95,
+        "count": 26
+      },
+      "reward": {
+        "exp": 1268773,
+        "bound_gold": 180
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_095",
+      "name": "主线·绿洲07",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 92,
+      "level_max": 94,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_105",
+        "target_name": "魔仆蝎女（魔）",
+        "target_level": 95,
+        "count": 26
+      },
+      "reward": {
+        "exp": 1424775,
+        "bound_gold": 184
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_096",
+      "name": "主线·绿洲08",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 94,
+      "level_max": 96,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_096",
+        "target_name": "仙人魔（物）",
+        "target_level": 80,
+        "count": 26
+      },
+      "reward": {
+        "exp": 1599958,
+        "bound_gold": 188
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_097",
+      "name": "主线·绿洲09",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 96,
+      "level_max": 98,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_097",
+        "target_name": "仙人魔（魔）",
+        "target_level": 80,
+        "count": 27
+      },
+      "reward": {
+        "exp": 1796682,
+        "bound_gold": 192
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_098",
+      "name": "主线·绿洲10",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 98,
+      "level_max": 100,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_099",
+        "target_name": "绿洲蛇魔（物）",
+        "target_level": 88,
+        "count": 27
+      },
+      "reward": {
+        "exp": 2017593,
+        "bound_gold": 196
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_099",
+      "name": "主线·绿洲11",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 100,
+      "level_max": 102,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_100",
+        "target_name": "绿洲蛇魔（魔）",
+        "target_level": 88,
+        "count": 28
+      },
+      "reward": {
+        "exp": 2266594,
+        "bound_gold": 200
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_100",
+      "name": "主线·绿洲12",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 102,
+      "level_max": 104,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_102",
+        "target_name": "沙熊（物）",
+        "target_level": 90,
+        "count": 28
+      },
+      "reward": {
+        "exp": 2549344,
+        "bound_gold": 204
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_101",
+      "name": "主线·绿洲13",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 104,
+      "level_max": 106,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_104",
+        "target_name": "魔仆蝎女（物）",
+        "target_level": 95,
+        "count": 28
+      },
+      "reward": {
+        "exp": 2867364,
+        "bound_gold": 208
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_102",
+      "name": "主线·绿洲14",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 106,
+      "level_max": 108,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_105",
+        "target_name": "魔仆蝎女（魔）",
+        "target_level": 95,
+        "count": 29
+      },
+      "reward": {
+        "exp": 3225056,
+        "bound_gold": 212
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_103",
+      "name": "主线·绿洲15",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 108,
+      "level_max": 110,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_096",
+        "target_name": "仙人魔（物）",
+        "target_level": 80,
+        "count": 29
+      },
+      "reward": {
+        "exp": 3627370,
+        "bound_gold": 216
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_104",
+      "name": "主线·绿洲16",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 110,
+      "level_max": 112,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_097",
+        "target_name": "仙人魔（魔）",
+        "target_level": 80,
+        "count": 30
+      },
+      "reward": {
+        "exp": 4077263,
+        "bound_gold": 220
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_105",
+      "name": "主线·绿洲17",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 112,
+      "level_max": 114,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_099",
+        "target_name": "绿洲蛇魔（物）",
+        "target_level": 88,
+        "count": 30
+      },
+      "reward": {
+        "exp": 4574506,
+        "bound_gold": 224
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_106",
+      "name": "主线·绿洲18",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 114,
+      "level_max": 116,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_100",
+        "target_name": "绿洲蛇魔（魔）",
+        "target_level": 88,
+        "count": 30
+      },
+      "reward": {
+        "exp": 5132391,
+        "bound_gold": 228
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_107",
+      "name": "主线·绿洲19",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 116,
+      "level_max": 118,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_102",
+        "target_name": "沙熊（物）",
+        "target_level": 90,
+        "count": 31
+      },
+      "reward": {
+        "exp": 5758312,
+        "bound_gold": 232
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    },
+    {
+      "id": "mq_108",
+      "name": "主线·绿洲20",
+      "type": "main",
+      "map": "oasis",
+      "map_name": "绿洲",
+      "level_min": 118,
+      "level_max": 120,
+      "objective": {
+        "kind": "kill",
+        "target_id": "m_107",
+        "target_name": "人魔王者",
+        "target_level": 120,
+        "count": 1
+      },
+      "reward": {
+        "exp": 6460568,
+        "bound_gold": 236
+      },
+      "status": "推定",
+      "source": "baseline-2026-11-13-v3"
+    }
+  ]
+}

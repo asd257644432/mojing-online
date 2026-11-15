@@ -1,0 +1,1239 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "status": "推定",
+    "evidence_scope": "仅133级升级经验为截图实证；其余等级为临时可玩曲线",
+    "source": "prototype-with-screenshot-anchor-2026-11-14",
+    "level_cap": 150,
+    "checkpoints": [
+      {
+        "level": 1,
+        "exp": 200,
+        "status": "推定"
+      },
+      {
+        "level": 10,
+        "exp": 1200,
+        "status": "推定"
+      },
+      {
+        "level": 133,
+        "exp": 580047075,
+        "status": "图证"
+      }
+    ],
+    "formula": "1—10保留原型；11—133对数插值；134—149同斜率外推（非原作公式）",
+    "rejected": "撤销旧版149升150需3200万的定值；该数字没有原作图证。",
+    "known_observation": {
+      "level": 133,
+      "current_exp": 172562713,
+      "exp_to_next": 580047075,
+      "display_percent": 29,
+      "percent_policy": "据截图推断向下取整"
+    },
+    "quest_exp_policy": "1—10级已接入原型任务；高等级任务和怪物奖励仍待重新校准。",
+    "note": "单张截图不能确定整条经验公式、累计经验、满级或经验来源比例。150级上限仍为原型配置。"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "exp_to_next": 200,
+      "exp_total": 0,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 2,
+      "exp_to_next": 244,
+      "exp_total": 200,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 3,
+      "exp_to_next": 298,
+      "exp_total": 444,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 4,
+      "exp_to_next": 363,
+      "exp_total": 742,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 5,
+      "exp_to_next": 443,
+      "exp_total": 1105,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 6,
+      "exp_to_next": 541,
+      "exp_total": 1548,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 7,
+      "exp_to_next": 660,
+      "exp_total": 2089,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 8,
+      "exp_to_next": 806,
+      "exp_total": 2749,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 9,
+      "exp_to_next": 983,
+      "exp_total": 3555,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 10,
+      "exp_to_next": 1200,
+      "exp_total": 4538,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 11,
+      "exp_to_next": 1335,
+      "exp_total": 5738,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 12,
+      "exp_to_next": 1485,
+      "exp_total": 7073,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 13,
+      "exp_to_next": 1651,
+      "exp_total": 8558,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 14,
+      "exp_to_next": 1837,
+      "exp_total": 10209,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 15,
+      "exp_to_next": 2043,
+      "exp_total": 12046,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 16,
+      "exp_to_next": 2272,
+      "exp_total": 14089,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 17,
+      "exp_to_next": 2527,
+      "exp_total": 16361,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 18,
+      "exp_to_next": 2811,
+      "exp_total": 18888,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 19,
+      "exp_to_next": 3127,
+      "exp_total": 21699,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 20,
+      "exp_to_next": 3478,
+      "exp_total": 24826,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 21,
+      "exp_to_next": 3868,
+      "exp_total": 28304,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 22,
+      "exp_to_next": 4303,
+      "exp_total": 32172,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 23,
+      "exp_to_next": 4786,
+      "exp_total": 36475,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 24,
+      "exp_to_next": 5323,
+      "exp_total": 41261,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 25,
+      "exp_to_next": 5921,
+      "exp_total": 46584,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 26,
+      "exp_to_next": 6586,
+      "exp_total": 52505,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 27,
+      "exp_to_next": 7325,
+      "exp_total": 59091,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 28,
+      "exp_to_next": 8148,
+      "exp_total": 66416,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 29,
+      "exp_to_next": 9062,
+      "exp_total": 74564,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 30,
+      "exp_to_next": 10080,
+      "exp_total": 83626,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 31,
+      "exp_to_next": 11212,
+      "exp_total": 93706,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 32,
+      "exp_to_next": 12470,
+      "exp_total": 104918,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 33,
+      "exp_to_next": 13871,
+      "exp_total": 117388,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 34,
+      "exp_to_next": 15428,
+      "exp_total": 131259,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 35,
+      "exp_to_next": 17160,
+      "exp_total": 146687,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 36,
+      "exp_to_next": 19087,
+      "exp_total": 163847,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 37,
+      "exp_to_next": 21230,
+      "exp_total": 182934,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 38,
+      "exp_to_next": 23614,
+      "exp_total": 204164,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 39,
+      "exp_to_next": 26265,
+      "exp_total": 227778,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 40,
+      "exp_to_next": 29214,
+      "exp_total": 254043,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 41,
+      "exp_to_next": 32494,
+      "exp_total": 283257,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 42,
+      "exp_to_next": 36143,
+      "exp_total": 315751,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 43,
+      "exp_to_next": 40201,
+      "exp_total": 351894,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 44,
+      "exp_to_next": 44714,
+      "exp_total": 392095,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 45,
+      "exp_to_next": 49735,
+      "exp_total": 436809,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 46,
+      "exp_to_next": 55319,
+      "exp_total": 486544,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 47,
+      "exp_to_next": 61530,
+      "exp_total": 541863,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 48,
+      "exp_to_next": 68439,
+      "exp_total": 603393,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 49,
+      "exp_to_next": 76123,
+      "exp_total": 671832,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 50,
+      "exp_to_next": 84670,
+      "exp_total": 747955,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 51,
+      "exp_to_next": 94176,
+      "exp_total": 832625,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 52,
+      "exp_to_next": 104750,
+      "exp_total": 926801,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 53,
+      "exp_to_next": 116512,
+      "exp_total": 1031551,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 54,
+      "exp_to_next": 129593,
+      "exp_total": 1148063,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 55,
+      "exp_to_next": 144144,
+      "exp_total": 1277656,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 56,
+      "exp_to_next": 160328,
+      "exp_total": 1421800,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 57,
+      "exp_to_next": 178330,
+      "exp_total": 1582128,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 58,
+      "exp_to_next": 198352,
+      "exp_total": 1760458,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 59,
+      "exp_to_next": 220623,
+      "exp_total": 1958810,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 60,
+      "exp_to_next": 245395,
+      "exp_total": 2179433,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 61,
+      "exp_to_next": 272947,
+      "exp_total": 2424828,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 62,
+      "exp_to_next": 303593,
+      "exp_total": 2697775,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 63,
+      "exp_to_next": 337681,
+      "exp_total": 3001368,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 64,
+      "exp_to_next": 375595,
+      "exp_total": 3339049,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 65,
+      "exp_to_next": 417766,
+      "exp_total": 3714644,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 66,
+      "exp_to_next": 464673,
+      "exp_total": 4132410,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 67,
+      "exp_to_next": 516845,
+      "exp_total": 4597083,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 68,
+      "exp_to_next": 574876,
+      "exp_total": 5113928,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 69,
+      "exp_to_next": 639423,
+      "exp_total": 5688804,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 70,
+      "exp_to_next": 711216,
+      "exp_total": 6328227,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 71,
+      "exp_to_next": 791071,
+      "exp_total": 7039443,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 72,
+      "exp_to_next": 879891,
+      "exp_total": 7830514,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 73,
+      "exp_to_next": 978685,
+      "exp_total": 8710405,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 74,
+      "exp_to_next": 1088570,
+      "exp_total": 9689090,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 75,
+      "exp_to_next": 1210794,
+      "exp_total": 10777660,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 76,
+      "exp_to_next": 1346740,
+      "exp_total": 11988454,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 77,
+      "exp_to_next": 1497950,
+      "exp_total": 13335194,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 78,
+      "exp_to_next": 1666139,
+      "exp_total": 14833144,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 79,
+      "exp_to_next": 1853211,
+      "exp_total": 16499283,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 80,
+      "exp_to_next": 2061287,
+      "exp_total": 18352494,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 81,
+      "exp_to_next": 2292726,
+      "exp_total": 20413781,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 82,
+      "exp_to_next": 2550151,
+      "exp_total": 22706507,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 83,
+      "exp_to_next": 2836479,
+      "exp_total": 25256658,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 84,
+      "exp_to_next": 3154955,
+      "exp_total": 28093137,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 85,
+      "exp_to_next": 3509190,
+      "exp_total": 31248092,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 86,
+      "exp_to_next": 3903198,
+      "exp_total": 34757282,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 87,
+      "exp_to_next": 4341444,
+      "exp_total": 38660480,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 88,
+      "exp_to_next": 4828896,
+      "exp_total": 43001924,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 89,
+      "exp_to_next": 5371079,
+      "exp_total": 47830820,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 90,
+      "exp_to_next": 5974138,
+      "exp_total": 53201899,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 91,
+      "exp_to_next": 6644907,
+      "exp_total": 59176037,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 92,
+      "exp_to_next": 7390989,
+      "exp_total": 65820944,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 93,
+      "exp_to_next": 8220841,
+      "exp_total": 73211933,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 94,
+      "exp_to_next": 9143868,
+      "exp_total": 81432774,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 95,
+      "exp_to_next": 10170530,
+      "exp_total": 90576642,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 96,
+      "exp_to_next": 11312466,
+      "exp_total": 100747172,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 97,
+      "exp_to_next": 12582616,
+      "exp_total": 112059638,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 98,
+      "exp_to_next": 13995378,
+      "exp_total": 124642254,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 99,
+      "exp_to_next": 15566762,
+      "exp_total": 138637632,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 100,
+      "exp_to_next": 17314581,
+      "exp_total": 154204394,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 101,
+      "exp_to_next": 19258642,
+      "exp_total": 171518975,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 102,
+      "exp_to_next": 21420979,
+      "exp_total": 190777617,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 103,
+      "exp_to_next": 23826102,
+      "exp_total": 212198596,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 104,
+      "exp_to_next": 26501269,
+      "exp_total": 236024698,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 105,
+      "exp_to_next": 29476801,
+      "exp_total": 262525967,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 106,
+      "exp_to_next": 32786422,
+      "exp_total": 292002768,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 107,
+      "exp_to_next": 36467643,
+      "exp_total": 324789190,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 108,
+      "exp_to_next": 40562188,
+      "exp_total": 361256833,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 109,
+      "exp_to_next": 45116463,
+      "exp_total": 401819021,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 110,
+      "exp_to_next": 50182087,
+      "exp_total": 446935484,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 111,
+      "exp_to_next": 55816474,
+      "exp_total": 497117571,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 112,
+      "exp_to_next": 62083483,
+      "exp_total": 552934045,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 113,
+      "exp_to_next": 69054144,
+      "exp_total": 615017528,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 114,
+      "exp_to_next": 76807463,
+      "exp_total": 684071672,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 115,
+      "exp_to_next": 85431316,
+      "exp_total": 760879135,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 116,
+      "exp_to_next": 95023445,
+      "exp_total": 846310451,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 117,
+      "exp_to_next": 105692567,
+      "exp_total": 941333896,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 118,
+      "exp_to_next": 117559605,
+      "exp_total": 1047026463,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 119,
+      "exp_to_next": 130759061,
+      "exp_total": 1164586068,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 120,
+      "exp_to_next": 145440537,
+      "exp_total": 1295345129,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 121,
+      "exp_to_next": 161770432,
+      "exp_total": 1440785666,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 122,
+      "exp_to_next": 179933828,
+      "exp_total": 1602556098,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 123,
+      "exp_to_next": 200136589,
+      "exp_total": 1782489926,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 124,
+      "exp_to_next": 222607693,
+      "exp_total": 1982626515,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 125,
+      "exp_to_next": 247601826,
+      "exp_total": 2205234208,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 126,
+      "exp_to_next": 275402271,
+      "exp_total": 2452836034,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 127,
+      "exp_to_next": 306324119,
+      "exp_total": 2728238305,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 128,
+      "exp_to_next": 340717835,
+      "exp_total": 3034562424,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 129,
+      "exp_to_next": 378973238,
+      "exp_total": 3375280259,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 130,
+      "exp_to_next": 421523913,
+      "exp_total": 3754253497,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 131,
+      "exp_to_next": 468852128,
+      "exp_total": 4175777410,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 132,
+      "exp_to_next": 521494301,
+      "exp_total": 4644629538,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 133,
+      "exp_to_next": 580047075,
+      "exp_total": 5166123839,
+      "status": "图证",
+      "source": "用户高清截图：133级经验条",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 134,
+      "exp_to_next": 645174087,
+      "exp_total": 5746170914,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 135,
+      "exp_to_next": 717613484,
+      "exp_total": 6391345001,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 136,
+      "exp_to_next": 798186293,
+      "exp_total": 7108958485,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 137,
+      "exp_to_next": 887805723,
+      "exp_total": 7907144778,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 138,
+      "exp_to_next": 987487518,
+      "exp_total": 8794950501,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 139,
+      "exp_to_next": 1098361470,
+      "exp_total": 9782438019,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 140,
+      "exp_to_next": 1221684220,
+      "exp_total": 10880799489,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 141,
+      "exp_to_next": 1358853506,
+      "exp_total": 12102483709,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 142,
+      "exp_to_next": 1511423999,
+      "exp_total": 13461337215,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 143,
+      "exp_to_next": 1681124931,
+      "exp_total": 14972761214,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 144,
+      "exp_to_next": 1869879686,
+      "exp_total": 16653886145,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 145,
+      "exp_to_next": 2079827605,
+      "exp_total": 18523765831,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 146,
+      "exp_to_next": 2313348233,
+      "exp_total": 20603593436,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 147,
+      "exp_to_next": 2573088286,
+      "exp_total": 22916941669,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 148,
+      "exp_to_next": 2861991651,
+      "exp_total": 25490029955,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 149,
+      "exp_to_next": 3183332750,
+      "exp_total": 28352021606,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    },
+    {
+      "level": 150,
+      "exp_to_next": 0,
+      "exp_total": 31535354356,
+      "status": "推定",
+      "source": "prototype-with-screenshot-anchor-2026-11-14",
+      "total_status": "推定累计；包含未证实的等级数据"
+    }
+  ]
+}

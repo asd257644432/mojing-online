@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "status": "已定",
+    "source": "2026-11-13 用户拍板：1 金 = 100 银，1 银 = 100 铜；银、铜显示上限 99 自动进位；任务给绑定金，出售给非绑定金",
+    "note": "绑定与非绑定各一本账，同一币种不互通；复活用银币，两档分别扣绑定/非绑定"
+  },
+  "units": [
+    { "id": "gold", "name": "金", "parent": null, "per_parent": 0, "display_max": null },
+    { "id": "silver", "name": "银", "parent": "gold", "per_parent": 100, "display_max": 99 },
+    { "id": "copper", "name": "铜", "parent": "silver", "per_parent": 100, "display_max": 99 }
+  ],
+  "accounts": [
+    { "id": "bound", "name": "绑定", "tradable": false },
+    { "id": "free", "name": "非绑定", "tradable": true }
+  ],
+  "sources": {
+    "quest_reward": "bound",
+    "vendor_sell": "free",
+    "monster_drop": "free",
+    "status": "推定",
+    "source": "任务给绑定金、出售给非绑定为用户拍板；怪物掉落归非绑定为推定"
+  },
+  "revive": {
+    "free_return_town": true,
+    "low_price_hp_percent": 30,
+    "low_price_account": "bound",
+    "low_price_silver_per_level": 10,
+    "full_price_hp_percent": 100,
+    "full_price_account": "free",
+    "full_price_silver_per_level": 50,
+    "status": "推定",
+    "source": "三档机制为用户拍板；两档价格 level×10 / level×50 为 baseline"
+  }
+}

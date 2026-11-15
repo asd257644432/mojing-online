@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>魔镜Online 重制版</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="cv"></canvas>
+
+<div id="hud" class="hidden">
+  <div id="status" class="panel">
+    <div id="portrait"><canvas id="pface" width="76" height="76"></canvas><span id="plevel">1</span><i id="nbadge" class="badge b1" title="国家">无</i><i class="badge b2" title="国家PK模式（默认）">国</i></div>
+    <div id="bars">
+      <div id="pname"></div>
+      <div class="bar"><b>HP</b><div class="track"><i id="hpbar" class="hp"></i><span id="hptext"></span></div></div>
+      <div class="bar"><b>MP</b><div class="track"><i id="mpbar" class="mp"></i><span id="mptext"></span></div></div>
+      <div class="bar"><b>EXP</b><div class="track"><i id="expbar" class="exp"></i><span id="exptext"></span></div></div>
+    </div>
+  </div>
+  <div id="targetbox" class="hidden">
+    <div id="tportrait"><canvas id="tface" width="52" height="52"></canvas><span id="tlevel">1</span></div>
+    <div id="tbars">
+      <div id="tname"></div>
+      <div class="bar"><b>HP</b><div class="track"><i id="thpbar" class="hp"></i><span id="thptext"></span></div></div>
+      <div class="bar"><b>MP</b><div class="track"><i class="mp" style="width:100%"></i></div></div>
+    </div>
+  </div>
+  <div id="banner"></div>
+  <div id="minimap"><canvas id="mm" width="170" height="170"></canvas><div id="mmname"></div><div id="mmcoord"></div><button class="mmb m1" data-todo="传送">转</button><button id="mmbtn" class="mmb m2" title="打开大地图（M）">图</button><button class="mmb m3" data-todo="挂机">挂</button><button class="mmb m4" data-todo="活动">活</button><button id="bgmbtn" title="音乐 开/关">♪</button></div>
+  <div id="tracker"></div>
+  <div id="log"></div>
+  <div id="chat">
+    <div id="chatlog"></div>
+    <div id="chattabs"><span class="sq">－</span><span class="sq">＋</span><span class="on">综合</span><span>附近</span><span>世界</span><span>组队</span><span>国家</span><span>公会</span><span>个人</span><span id="chatclear">清屏</span><span class="sq">🔒</span></div>
+    <div id="chatrow"><b>世界⬆</b><input id="chatin" maxlength="80" placeholder="按回车聊天" autocomplete="off"><i>☺</i><i>↵</i></div>
+  </div>
+  <div id="skillbar"></div>
+  <div id="menu">
+    <button data-win="char"><i style="background-image:url(assets/ui/menu-char.png)"></i>角色</button>
+    <button data-win="bag"><i style="background-image:url(assets/ui/menu-bag.png)"></i>包裹</button>
+    <button data-todo="技能"><i style="background-image:url(assets/ui/menu-skill.png)"></i>技能</button>
+    <button data-win="quest"><i style="background-image:url(assets/ui/menu-quest.png)"></i>任务</button>
+    <button data-todo="好友"><i style="background-image:url(assets/ui/menu-friend.png)"></i>好友</button>
+    <button data-todo="公会"><i style="background-image:url(assets/ui/menu-guild.png)"></i>公会</button>
+    <button data-todo="国家"><i style="background-image:url(assets/ui/menu-nation.png)"></i>国家</button>
+    <button data-todo="商城" class="mall"><i style="background-image:url(assets/ui/menu-mall.png)">商</i></button>
+  </div>
+</div>
+
+<div id="win-char" class="win hidden"><h3>角色<a class="x">×</a></h3><div class="body"></div></div>
+<div id="win-bag" class="win hidden"><h3>我的背包<a class="x">×</a></h3><div class="body"></div></div>
+<div id="win-look" class="win hidden"><h3>更换形象<a class="x">×</a></h3><div class="body"></div></div>
+<div id="win-quest" class="win hidden"><h3>任务<a class="x">×</a></h3><div class="body"></div></div>
+<div id="win-map" class="win hidden"><h3>遗迹之岛<a class="x">×</a></h3><div class="body"><div id="wmap"><img src="assets/map/island.webp" draggable="false"><div id="wmarks"></div><i id="wme"></i></div></div></div>
+<div id="win-dialog" class="win hidden"><h3><span id="dname"></span><a class="x">×</a></h3><div class="body"></div></div>
+
+<div id="dead" class="overlay hidden"><div class="box"><h2>你倒下了</h2><button id="revive">回城复活（免费）</button></div></div>
+<div id="arrive" class="overlay hidden"><div class="box"><h2>沐光平原</h2><p>传送点已为你打开。<br>沐光平原还在施工中，敬请期待。</p><button id="arriveok">留在遗迹之岛</button></div></div>
+
+<div id="login">
+  <!-- 第一页：登录图 + 账号 -->
+  <div id="pg-acct" class="pg">
+    <div class="lgbox">
+      <input id="lg-name" placeholder="账号（2–10 字）" maxlength="10" autocomplete="off">
+      <button id="lg-go" class="gbtn">进入游戏</button>
+      <div class="lgmsg"></div>
+    </div>
+  </div>
+  <!-- 第二页：选角色 -->
+  <div id="pg-chars" class="pg hidden">
+    <div class="ttl">选择角色</div>
+    <div id="slots"></div>
+    <div class="row"><button id="ch-back" class="gbtn sm">返回</button><button id="ch-go" class="gbtn">进入游戏</button></div>
+    <div class="lgmsg"></div>
+  </div>
+  <!-- 第三页：创建角色（左表单、右立绘） -->
+  <div id="pg-create" class="pg hidden">
+    <div id="cr">
+      <div id="cr-form">
+        <div class="fr"><label>性别:</label><button class="sx" data-sex="m">♂ 男</button><button class="sx" data-sex="f">♀ 女</button></div>
+        <div class="fr"><label>职业:</label><span id="cr-cls"></span></div>
+        <div id="cr-pre"><a id="pre-l">◀</a><i id="pre-doll"></i><a id="pre-r">▶</a></div>
+        <div class="fr ctr"><button id="cr-adv" class="gbtn sm">查看高级形象</button></div>
+        <div class="fr"><label>形象:</label><a id="lk-l">◀</a><b id="cr-look">时尚型</b><a id="lk-r">▶</a></div>
+        <div class="fr"><label>昵称:</label><input id="cr-name" maxlength="10" autocomplete="off"><button id="cr-check" class="gbtn xs">重名检测</button></div>
+        <div class="fr ctr"><button id="cr-go" class="gbtn">进入游戏</button></div>
+        <div class="fr ctr"><a id="cr-back">返回选择角色</a></div>
+        <div class="lgmsg"></div>
+      </div>
+      <img id="cr-art" alt="">
+      <div id="cr-desc"><h4></h4><p></p></div>
+    </div>
+  </div>
+  <!-- 第四页：选择国家 -->
+  <div id="pg-nation" class="pg hidden">
+    <div id="na">
+      <h3>选择国家</h3>
+      <div id="na-desc"><h4></h4><p></p></div>
+      <div id="na-cards"></div>
+      <div class="row"><button id="na-back" class="gbtn sm">返回</button><button id="na-go" class="gbtn">进入游戏</button></div>
+      <div class="lgmsg"></div>
+    </div>
+  </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>

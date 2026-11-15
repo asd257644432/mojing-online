@@ -1,0 +1,1715 @@
+{
+  "schema_version": 2,
+  "meta": {
+    "status": "图证",
+    "source": "实机截图提示框原文（2026-11-13 全量读图）",
+    "rule": "5 套 × 10 部位 = 50 件，全部有截图原文；需求等级 120–129；每件强化需星空碎片 15 个",
+    "note": "装备名、需求等级、耐久、主属性均为截图原文；共用属性取自提示框「其餘部件共用」段；商人职业在商店页签中存在但无套装截图",
+    "item_count": 50,
+    "set_count": 5
+  },
+  "quality_prefixes": [
+    {
+      "name": "精緻的",
+      "multiplier": 1.0,
+      "status": "图证"
+    },
+    {
+      "name": "卓越的",
+      "multiplier": 1.5,
+      "status": "推定",
+      "note": "倍率按既有基线推定，无图证"
+    },
+    {
+      "name": "完美的",
+      "multiplier": 2.0,
+      "status": "推定",
+      "note": "倍率按既有基线推定，无图证"
+    },
+    {
+      "name": "神聖的",
+      "multiplier": null,
+      "status": "未判定",
+      "note": "星空神装固定带此前缀，是否为独立品质档待确认"
+    }
+  ],
+  "slots": [
+    {
+      "id": "weapon",
+      "name": "武器"
+    },
+    {
+      "id": "head",
+      "name": "头盔"
+    },
+    {
+      "id": "body",
+      "name": "衣服"
+    },
+    {
+      "id": "waist",
+      "name": "腰带"
+    },
+    {
+      "id": "leg",
+      "name": "护腿"
+    },
+    {
+      "id": "hand",
+      "name": "手套"
+    },
+    {
+      "id": "foot",
+      "name": "鞋子"
+    },
+    {
+      "id": "necklace",
+      "name": "项链"
+    },
+    {
+      "id": "ring",
+      "name": "戒指"
+    },
+    {
+      "id": "charm",
+      "name": "护符"
+    }
+  ],
+  "sets": [
+    {
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "class_id": "warrior",
+      "class_name": "战士",
+      "piece_count": 10,
+      "shared_stats": {
+        "str": 70,
+        "vit": 50,
+        "phys_atk": 307,
+        "phys_def": 445,
+        "mag_def": 445,
+        "phys_atk_pct": 5
+      },
+      "enhance_material": "星空碎片",
+      "enhance_cost_each": 15,
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "class_id": "mage",
+      "class_name": "法师",
+      "piece_count": 10,
+      "shared_stats": {
+        "int": 80,
+        "spr": 40,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "enhance_material": "星空碎片",
+      "enhance_cost_each": 15,
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "class_id": "ranger",
+      "class_name": "游侠（射手/弓）",
+      "piece_count": 10,
+      "shared_stats": {
+        "str": 80,
+        "agi": 50,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "enhance_material": "星空碎片",
+      "enhance_cost_each": 15,
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "class_id": "rogue",
+      "class_name": "盗贼",
+      "piece_count": 10,
+      "shared_stats": {
+        "str": 40,
+        "agi": 80,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "enhance_material": "星空碎片",
+      "enhance_cost_each": 15,
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "class_id": "priest",
+      "class_name": "祭司",
+      "piece_count": 10,
+      "shared_stats": {
+        "int": 80,
+        "spr": 60,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "enhance_material": "星空碎片",
+      "enhance_cost_each": 15,
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    }
+  ],
+  "items": [
+    {
+      "id": "eq_star_destruction_weapon",
+      "name": "星空毀滅神劍",
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "slot": "weapon",
+      "slot_name": "武器",
+      "require_level": 120,
+      "require_class": [
+        "warrior"
+      ],
+      "durability": 560,
+      "base_stats": {
+        "phys_atk": 3099
+      },
+      "shared_stats": {
+        "str": 70,
+        "vit": 50,
+        "phys_atk": 307,
+        "phys_def": 445,
+        "mag_def": 445,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_destruction_head",
+      "name": "星空毀滅戰盔",
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "slot": "head",
+      "slot_name": "头盔",
+      "require_level": 125,
+      "require_class": [
+        "warrior"
+      ],
+      "durability": 233,
+      "base_stats": {
+        "phys_def": 2490,
+        "mag_def": 1867
+      },
+      "shared_stats": {
+        "str": 70,
+        "vit": 50,
+        "phys_atk": 307,
+        "phys_def": 445,
+        "mag_def": 445,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_destruction_body",
+      "name": "星空毀滅戰鎧",
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "slot": "body",
+      "slot_name": "衣服",
+      "require_level": 120,
+      "require_class": [
+        "warrior"
+      ],
+      "durability": 350,
+      "base_stats": {
+        "phys_def": 3735,
+        "mag_def": 2801,
+        "hp_flat": 4906
+      },
+      "shared_stats": {
+        "str": 70,
+        "vit": 50,
+        "phys_atk": 307,
+        "phys_def": 445,
+        "mag_def": 445,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_destruction_waist",
+      "name": "星空毀滅腰帶",
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "slot": "waist",
+      "slot_name": "腰带",
+      "require_level": 122,
+      "require_class": [
+        "warrior"
+      ],
+      "durability": 182,
+      "base_stats": {
+        "hp_flat": 24528,
+        "mp_flat": 7874
+      },
+      "shared_stats": {
+        "str": 70,
+        "vit": 50,
+        "phys_atk": 307,
+        "phys_def": 445,
+        "mag_def": 445,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_destruction_leg",
+      "name": "星空毀滅護腿",
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "slot": "leg",
+      "slot_name": "护腿",
+      "require_level": 123,
+      "require_class": [
+        "warrior"
+      ],
+      "durability": 292,
+      "base_stats": {
+        "phys_def": 3112,
+        "mag_def": 2334
+      },
+      "shared_stats": {
+        "str": 70,
+        "vit": 50,
+        "phys_atk": 307,
+        "phys_def": 445,
+        "mag_def": 445,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_destruction_hand",
+      "name": "星空毀滅護手",
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "slot": "hand",
+      "slot_name": "手套",
+      "require_level": 126,
+      "require_class": [
+        "warrior"
+      ],
+      "durability": 175,
+      "base_stats": {
+        "phys_def": 1867,
+        "mag_def": 1400
+      },
+      "shared_stats": {
+        "str": 70,
+        "vit": 50,
+        "phys_atk": 307,
+        "phys_def": 445,
+        "mag_def": 445,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_destruction_foot",
+      "name": "星空毀滅戰靴",
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "slot": "foot",
+      "slot_name": "鞋子",
+      "require_level": 127,
+      "require_class": [
+        "warrior"
+      ],
+      "durability": 257,
+      "base_stats": {
+        "phys_def": 1245,
+        "mag_def": 934,
+        "dodge": 3219
+      },
+      "shared_stats": {
+        "str": 70,
+        "vit": 50,
+        "phys_atk": 307,
+        "phys_def": 445,
+        "mag_def": 445,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_destruction_necklace",
+      "name": "星空毀滅項鍊",
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "slot": "necklace",
+      "slot_name": "项链",
+      "require_level": 124,
+      "require_class": [
+        "warrior"
+      ],
+      "durability": 373,
+      "base_stats": {
+        "phys_atk": 1291,
+        "dodge": 5219
+      },
+      "shared_stats": {
+        "str": 70,
+        "vit": 50,
+        "phys_atk": 307,
+        "phys_def": 445,
+        "mag_def": 445,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_destruction_ring",
+      "name": "星空毀滅戒指",
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "slot": "ring",
+      "slot_name": "戒指",
+      "require_level": 128,
+      "require_class": [
+        "warrior"
+      ],
+      "durability": 280,
+      "base_stats": {
+        "phys_atk": 775,
+        "hit": 4522
+      },
+      "shared_stats": {
+        "str": 70,
+        "vit": 50,
+        "phys_atk": 307,
+        "phys_def": 445,
+        "mag_def": 445,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_destruction_charm",
+      "name": "星空毀滅護符",
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "slot": "charm",
+      "slot_name": "护符",
+      "require_level": 129,
+      "require_class": [
+        "warrior"
+      ],
+      "durability": 182,
+      "base_stats": {
+        "hp_flat": 19622,
+        "mp_flat": 11811,
+        "hit": 6782
+      },
+      "shared_stats": {
+        "str": 70,
+        "vit": 50,
+        "phys_atk": 307,
+        "phys_def": 445,
+        "mag_def": 445,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_gloom_weapon",
+      "name": "星空昏暗法杖",
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "slot": "weapon",
+      "slot_name": "武器",
+      "require_level": 120,
+      "require_class": [
+        "mage"
+      ],
+      "durability": 560,
+      "base_stats": {
+        "mag_atk": 3409
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 40,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_gloom_head",
+      "name": "星空昏暗法帽",
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "slot": "head",
+      "slot_name": "头盔",
+      "require_level": 125,
+      "require_class": [
+        "mage"
+      ],
+      "durability": 233,
+      "base_stats": {
+        "phys_def": 1494,
+        "mag_def": 2427
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 40,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_gloom_body",
+      "name": "星空昏暗法袍",
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "slot": "body",
+      "slot_name": "衣服",
+      "require_level": 120,
+      "require_class": [
+        "mage"
+      ],
+      "durability": 350,
+      "base_stats": {
+        "phys_def": 2241,
+        "mag_def": 3641,
+        "hp_flat": 2943
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 40,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_gloom_waist",
+      "name": "星空昏暗腰帶",
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "slot": "waist",
+      "slot_name": "腰带",
+      "require_level": 122,
+      "require_class": [
+        "mage"
+      ],
+      "durability": 182,
+      "base_stats": {
+        "hp_flat": 11417,
+        "mp_flat": 11811
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 40,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_gloom_leg",
+      "name": "星空昏暗護腿",
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "slot": "leg",
+      "slot_name": "护腿",
+      "require_level": 123,
+      "require_class": [
+        "mage"
+      ],
+      "durability": 292,
+      "base_stats": {
+        "phys_def": 1867,
+        "mag_def": 3034
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 40,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_gloom_hand",
+      "name": "星空昏暗護手",
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "slot": "hand",
+      "slot_name": "手套",
+      "require_level": 126,
+      "require_class": [
+        "mage"
+      ],
+      "durability": 175,
+      "base_stats": {
+        "phys_def": 1120,
+        "mag_def": 1821
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 40,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_gloom_foot",
+      "name": "星空昏暗法靴",
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "slot": "foot",
+      "slot_name": "鞋子",
+      "require_level": 127,
+      "require_class": [
+        "mage"
+      ],
+      "durability": 257,
+      "base_stats": {
+        "phys_def": 747,
+        "mag_def": 1214,
+        "dodge": 2697
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 40,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_gloom_necklace",
+      "name": "星空昏暗項鍊",
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "slot": "necklace",
+      "slot_name": "项链",
+      "require_level": 124,
+      "require_class": [
+        "mage"
+      ],
+      "durability": 373,
+      "base_stats": {
+        "mag_atk": 1420,
+        "dodge": 2697
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 40,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_gloom_ring",
+      "name": "星空昏暗戒指",
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "slot": "ring",
+      "slot_name": "戒指",
+      "require_level": 128,
+      "require_class": [
+        "mage"
+      ],
+      "durability": 280,
+      "base_stats": {
+        "mag_atk": 852,
+        "hit": 5426
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 40,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_gloom_charm",
+      "name": "星空昏暗護符",
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "slot": "charm",
+      "slot_name": "护符",
+      "require_level": 129,
+      "require_class": [
+        "mage"
+      ],
+      "durability": 182,
+      "base_stats": {
+        "hp_flat": 11773,
+        "mp_flat": 17177,
+        "hit": 8189
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 40,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_moonchase_weapon",
+      "name": "星空追月神弓",
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "slot": "weapon",
+      "slot_name": "武器",
+      "require_level": 120,
+      "require_class": [
+        "ranger"
+      ],
+      "durability": 560,
+      "base_stats": {
+        "phys_atk": 3099
+      },
+      "shared_stats": {
+        "str": 80,
+        "agi": 50,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_moonchase_head",
+      "name": "星空追月戰盔",
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "slot": "head",
+      "slot_name": "头盔",
+      "require_level": 125,
+      "require_class": [
+        "ranger"
+      ],
+      "durability": 233,
+      "base_stats": {
+        "phys_def": 1867,
+        "mag_def": 1494
+      },
+      "shared_stats": {
+        "str": 80,
+        "agi": 50,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_moonchase_body",
+      "name": "星空追月戰甲",
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "slot": "body",
+      "slot_name": "衣服",
+      "require_level": 127,
+      "require_class": [
+        "ranger"
+      ],
+      "durability": 350,
+      "base_stats": {
+        "phys_def": 2801,
+        "mag_def": 2241
+      },
+      "shared_stats": {
+        "str": 80,
+        "agi": 50,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_moonchase_waist",
+      "name": "星空追月腰帶",
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "slot": "waist",
+      "slot_name": "腰带",
+      "require_level": 122,
+      "require_class": [
+        "ranger"
+      ],
+      "durability": 182,
+      "base_stats": {
+        "hp_flat": 19622,
+        "mp_flat": 7874
+      },
+      "shared_stats": {
+        "str": 80,
+        "agi": 50,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_moonchase_leg",
+      "name": "星空追月護腿",
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "slot": "leg",
+      "slot_name": "护腿",
+      "require_level": 123,
+      "require_class": [
+        "ranger"
+      ],
+      "durability": 292,
+      "base_stats": {
+        "phys_def": 2334,
+        "mag_def": 1867
+      },
+      "shared_stats": {
+        "str": 80,
+        "agi": 50,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_moonchase_hand",
+      "name": "星空追月護手",
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "slot": "hand",
+      "slot_name": "手套",
+      "require_level": 126,
+      "require_class": [
+        "ranger"
+      ],
+      "durability": 175,
+      "base_stats": {
+        "phys_def": 1400,
+        "mag_def": 1120
+      },
+      "shared_stats": {
+        "str": 80,
+        "agi": 50,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_moonchase_foot",
+      "name": "星空追月戰靴",
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "slot": "foot",
+      "slot_name": "鞋子",
+      "require_level": 127,
+      "require_class": [
+        "ranger"
+      ],
+      "durability": 257,
+      "base_stats": {
+        "phys_def": 934,
+        "mag_def": 747,
+        "dodge": 3862
+      },
+      "shared_stats": {
+        "str": 80,
+        "agi": 50,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_moonchase_necklace",
+      "name": "星空追月項鍊",
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "slot": "necklace",
+      "slot_name": "项链",
+      "require_level": 124,
+      "require_class": [
+        "ranger"
+      ],
+      "durability": 373,
+      "base_stats": {
+        "phys_atk": 1291,
+        "dodge": 3862
+      },
+      "shared_stats": {
+        "str": 80,
+        "agi": 50,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_moonchase_ring",
+      "name": "星空追月戒指",
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "slot": "ring",
+      "slot_name": "戒指",
+      "require_level": 128,
+      "require_class": [
+        "ranger"
+      ],
+      "durability": 280,
+      "base_stats": {
+        "phys_atk": 775,
+        "hit": 5678
+      },
+      "shared_stats": {
+        "str": 80,
+        "agi": 50,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_moonchase_charm",
+      "name": "星空追月護符",
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "slot": "charm",
+      "slot_name": "护符",
+      "require_level": 129,
+      "require_class": [
+        "ranger"
+      ],
+      "durability": 182,
+      "base_stats": {
+        "hp_flat": 7170,
+        "mp_flat": 8626,
+        "hit": 6429
+      },
+      "shared_stats": {
+        "str": 80,
+        "agi": 50,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_banish_weapon",
+      "name": "星空放逐之刃",
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "slot": "weapon",
+      "slot_name": "武器",
+      "require_level": 120,
+      "require_class": [
+        "rogue"
+      ],
+      "durability": 560,
+      "base_stats": {
+        "phys_atk": 2789
+      },
+      "shared_stats": {
+        "str": 40,
+        "agi": 80,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_banish_head",
+      "name": "星空放逐頭盔",
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "slot": "head",
+      "slot_name": "头盔",
+      "require_level": 125,
+      "require_class": [
+        "rogue"
+      ],
+      "durability": 233,
+      "base_stats": {
+        "phys_def": 1743,
+        "mag_def": 1307
+      },
+      "shared_stats": {
+        "str": 40,
+        "agi": 80,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_banish_body",
+      "name": "星空放逐戰甲",
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "slot": "body",
+      "slot_name": "衣服",
+      "require_level": 127,
+      "require_class": [
+        "rogue"
+      ],
+      "durability": 350,
+      "base_stats": {
+        "phys_def": 2614,
+        "mag_def": 1961
+      },
+      "shared_stats": {
+        "str": 40,
+        "agi": 80,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_banish_waist",
+      "name": "星空放逐腰帶",
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "slot": "waist",
+      "slot_name": "腰带",
+      "require_level": 122,
+      "require_class": [
+        "rogue"
+      ],
+      "durability": 182,
+      "base_stats": {
+        "hp_flat": 17169,
+        "mp_flat": 7874
+      },
+      "shared_stats": {
+        "str": 40,
+        "agi": 80,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_banish_leg",
+      "name": "星空放逐護腿",
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "slot": "leg",
+      "slot_name": "护腿",
+      "require_level": 123,
+      "require_class": [
+        "rogue"
+      ],
+      "durability": 292,
+      "base_stats": {
+        "phys_def": 2178,
+        "mag_def": 1634
+      },
+      "shared_stats": {
+        "str": 40,
+        "agi": 80,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_banish_hand",
+      "name": "星空放逐護手",
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "slot": "hand",
+      "slot_name": "手套",
+      "require_level": 126,
+      "require_class": [
+        "rogue"
+      ],
+      "durability": 175,
+      "base_stats": {
+        "phys_def": 1307,
+        "mag_def": 980
+      },
+      "shared_stats": {
+        "str": 40,
+        "agi": 80,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_banish_foot",
+      "name": "星空放逐戰靴",
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "slot": "foot",
+      "slot_name": "鞋子",
+      "require_level": 127,
+      "require_class": [
+        "rogue"
+      ],
+      "durability": 257,
+      "base_stats": {
+        "phys_def": 871,
+        "mag_def": 654,
+        "dodge": 4184
+      },
+      "shared_stats": {
+        "str": 40,
+        "agi": 80,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_banish_necklace",
+      "name": "星空放逐項鍊",
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "slot": "necklace",
+      "slot_name": "项链",
+      "require_level": 124,
+      "require_class": [
+        "rogue"
+      ],
+      "durability": 373,
+      "base_stats": {
+        "phys_atk": 1182,
+        "dodge": 4184
+      },
+      "shared_stats": {
+        "str": 40,
+        "agi": 80,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_banish_ring",
+      "name": "星空放逐戒指",
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "slot": "ring",
+      "slot_name": "戒指",
+      "require_level": 128,
+      "require_class": [
+        "rogue"
+      ],
+      "durability": 280,
+      "base_stats": {
+        "phys_atk": 697,
+        "hit": 5426
+      },
+      "shared_stats": {
+        "str": 40,
+        "agi": 80,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_banish_charm",
+      "name": "星空放逐護符",
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "slot": "charm",
+      "slot_name": "护符",
+      "require_level": 125,
+      "require_class": [
+        "rogue"
+      ],
+      "durability": 182,
+      "base_stats": {
+        "hp_flat": 13736,
+        "mp_flat": 11811,
+        "hit": 8199
+      },
+      "shared_stats": {
+        "str": 40,
+        "agi": 80,
+        "phys_atk": 307,
+        "hit": 1312,
+        "dodge": 747,
+        "phys_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_dream_weapon",
+      "name": "星空夢境神杖",
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "slot": "weapon",
+      "slot_name": "武器",
+      "require_level": 120,
+      "require_class": [
+        "priest"
+      ],
+      "durability": 560,
+      "base_stats": {
+        "mag_atk": 2944
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 60,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_dream_head",
+      "name": "星空夢境神帽",
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "slot": "head",
+      "slot_name": "头盔",
+      "require_level": 125,
+      "require_class": [
+        "priest"
+      ],
+      "durability": 233,
+      "base_stats": {
+        "phys_def": 1192,
+        "mag_def": 2614
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 60,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_dream_body",
+      "name": "星空夢境法袍",
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "slot": "body",
+      "slot_name": "衣服",
+      "require_level": 127,
+      "require_class": [
+        "priest"
+      ],
+      "durability": 350,
+      "base_stats": {
+        "phys_def": 2986,
+        "mag_def": 3921
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 60,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_dream_waist",
+      "name": "星空夢境腰帶",
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "slot": "waist",
+      "slot_name": "腰带",
+      "require_level": 122,
+      "require_class": [
+        "priest"
+      ],
+      "durability": 182,
+      "base_stats": {
+        "hp_flat": 22075,
+        "mp_flat": 9499
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 60,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_dream_leg",
+      "name": "星空夢境護腿",
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "slot": "leg",
+      "slot_name": "护腿",
+      "require_level": 123,
+      "require_class": [
+        "priest"
+      ],
+      "durability": 292,
+      "base_stats": {
+        "phys_def": 2490,
+        "mag_def": 3266
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 60,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_dream_hand",
+      "name": "星空夢境護手",
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "slot": "hand",
+      "slot_name": "手套",
+      "require_level": 126,
+      "require_class": [
+        "priest"
+      ],
+      "durability": 175,
+      "base_stats": {
+        "phys_def": 1494,
+        "mag_def": 1961
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 60,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_dream_foot",
+      "name": "星空夢境法靴",
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "slot": "foot",
+      "slot_name": "鞋子",
+      "require_level": 127,
+      "require_class": [
+        "priest"
+      ],
+      "durability": 257,
+      "base_stats": {
+        "phys_def": 996,
+        "mag_def": 1307,
+        "dodge": 3219
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 60,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_dream_necklace",
+      "name": "星空夢境項鍊",
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "slot": "necklace",
+      "slot_name": "项链",
+      "require_level": 124,
+      "require_class": [
+        "priest"
+      ],
+      "durability": 373,
+      "base_stats": {
+        "mag_atk": 1227,
+        "dodge": 3219
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 60,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_dream_ring",
+      "name": "星空夢境戒指",
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "slot": "ring",
+      "slot_name": "戒指",
+      "require_level": 128,
+      "require_class": [
+        "priest"
+      ],
+      "durability": 280,
+      "base_stats": {
+        "mag_atk": 736,
+        "hit": 4522
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 60,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "eq_star_dream_charm",
+      "name": "星空夢境護符",
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "slot": "charm",
+      "slot_name": "护符",
+      "require_level": 129,
+      "require_class": [
+        "priest"
+      ],
+      "durability": 182,
+      "base_stats": {
+        "hp_flat": 17660,
+        "mp_flat": 14173,
+        "hit": 6782
+      },
+      "shared_stats": {
+        "int": 80,
+        "spr": 60,
+        "mag_atk": 307,
+        "hit": 1312,
+        "hp_flat": 2636,
+        "mag_atk_pct": 5
+      },
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    }
+  ],
+  "set_bonus": [
+    {
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "pieces": 3,
+      "effects": {
+        "hit_rate_pct": 15
+      },
+      "effects_text": "命中率 +15%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "pieces": 6,
+      "effects": {
+        "phys_def_pct": 50
+      },
+      "effects_text": "物理防禦百分比 +50%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_destruction",
+      "set_name": "星空毁灭",
+      "pieces": 10,
+      "effects": {
+        "hp_pct": 30
+      },
+      "effects_text": "生命百分比 +30%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "pieces": 3,
+      "effects": {
+        "hit_rate_pct": 15
+      },
+      "effects_text": "命中率 +15%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "pieces": 6,
+      "effects": {
+        "mag_crit_pct": 10
+      },
+      "effects_text": "魔法暴擊率 +10%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_gloom",
+      "set_name": "星空昏暗",
+      "pieces": 10,
+      "effects": {
+        "hp_pct": 30
+      },
+      "effects_text": "生命百分比 +30%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "pieces": 3,
+      "effects": {
+        "hit_rate_pct": 15
+      },
+      "effects_text": "命中率 +15%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "pieces": 6,
+      "effects": {
+        "phys_crit_pct": 10
+      },
+      "effects_text": "物理暴擊率 +10%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_moonchase",
+      "set_name": "星空追月",
+      "pieces": 10,
+      "effects": {
+        "hp_pct": 30
+      },
+      "effects_text": "生命百分比 +30%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "pieces": 3,
+      "effects": {
+        "hit_rate_pct": 15
+      },
+      "effects_text": "命中率 +15%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "pieces": 6,
+      "effects": {
+        "phys_crit_pct": 10
+      },
+      "effects_text": "物理暴擊率 +10%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_banish",
+      "set_name": "星空放逐",
+      "pieces": 10,
+      "effects": {
+        "hp_pct": 30
+      },
+      "effects_text": "生命百分比 +30%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "pieces": 3,
+      "effects": {
+        "hit_rate_pct": 15
+      },
+      "effects_text": "命中率 +15%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "pieces": 6,
+      "effects": {
+        "reflect_pct": 25
+      },
+      "effects_text": "反傷 +25%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    },
+    {
+      "set_id": "star_dream",
+      "set_name": "星空梦境",
+      "pieces": 10,
+      "effects": {
+        "hp_pct": 30
+      },
+      "effects_text": "生命百分比 +30%",
+      "status": "图证",
+      "source": "实机截图提示框原文（2026-11-13 全量读图）"
+    }
+  ],
+  "class_tabs": [
+    "戰士",
+    "商人",
+    "盜賊",
+    "射手",
+    "法師",
+    "祭司"
+  ],
+  "class_tabs_note": "商店页签原文为「戰士/商人/盜賊/射手/法師/祭司」，射手即文档中的游侠（弓）",
+  "repair": {
+    "all_repair": "全部修理",
+    "single_repair": "修理裝備",
+    "page_info": "第1頁/共1頁"
+  }
+}

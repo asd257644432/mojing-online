@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "status": "推定",
+    "source": "2026-11-13 用户拍板（双暴击 / 每级 5 点加属性）+ baseline-2026-11-13",
+    "note": "公式形状固定，系数全为可玩基线；改数值只改本文件，不改代码"
+  },
+  "attributes": [
+    {
+      "id": "str",
+      "name": "力量",
+      "effects": [
+        "物理攻击"
+      ],
+      "status": "已定",
+      "source": "D-2026-11-04-02 Q6 + D-2026-11-04-03 属性映射"
+    },
+    {
+      "id": "agi",
+      "name": "敏捷",
+      "effects": [
+        "物理暴击",
+        "命中",
+        "闪避"
+      ],
+      "status": "已定",
+      "source": "D-2026-11-04-05 敏捷→物理暴击"
+    },
+    {
+      "id": "int",
+      "name": "智力",
+      "effects": [
+        "魔法攻击"
+      ],
+      "status": "已定",
+      "source": "D-2026-11-04-03 智力→魔攻"
+    },
+    {
+      "id": "spi",
+      "name": "精神",
+      "effects": [
+        "魔法暴击",
+        "法力"
+      ],
+      "status": "已定",
+      "source": "D-2026-11-04-05 精神→魔法暴击"
+    },
+    {
+      "id": "vit",
+      "name": "体质",
+      "effects": [
+        "生命"
+      ],
+      "status": "已定",
+      "source": "D-2026-11-04-03 体质→血量"
+    }
+  ],
+  "resistances": [
+    {
+      "id": "burn",
+      "name": "灼烧抗性"
+    },
+    {
+      "id": "cold",
+      "name": "寒冰抗性"
+    },
+    {
+      "id": "confuse",
+      "name": "混乱抗性"
+    },
+    {
+      "id": "stun",
+      "name": "眩晕抗性"
+    },
+    {
+      "id": "blind",
+      "name": "致盲抗性"
+    },
+    {
+      "id": "poison",
+      "name": "中毒抗性"
+    },
+    {
+      "id": "silence",
+      "name": "沉默抗性"
+    },
+    {
+      "id": "weak",
+      "name": "虚弱抗性"
+    }
+  ],
+  "formulas": {
+    "max_hp": {
+      "base": 100,
+      "per_level": 8,
+      "per_vit": 10,
+      "rounding": "floor",
+      "status": "推定",
+      "source": "baseline-2026-11-13"
+    },
+    "max_mp": {
+      "base": 50,
+      "per_level": 4,
+      "per_spi": 8,
+      "rounding": "floor",
+      "status": "推定",
+      "source": "baseline-2026-11-13"
+    },
+    "phys_atk": {
+      "base": 0,
+      "per_level": 1,
+      "per_str": 2,
+      "rounding": "floor",
+      "status": "推定",
+      "source": "baseline-2026-11-13"
+    },
+    "mag_atk": {
+      "base": 0,
+      "per_level": 1,
+      "per_int": 2,
+      "rounding": "floor",
+      "status": "推定",
+      "source": "baseline-2026-11-13"
+    },
+    "phys_def": {
+      "base": 0,
+      "per_level": 0.5,
+      "per_vit": 0.8,
+      "rounding": "floor",
+      "status": "推定",
+      "source": "baseline-2026-11-13"
+    },
+    "mag_def": {
+      "base": 0,
+      "per_level": 0.5,
+      "per_spi": 0.8,
+      "rounding": "floor",
+      "status": "推定",
+      "source": "baseline-2026-11-13"
+    },
+    "phys_crit": {
+      "base": 0.05,
+      "per_agi": 0.0008,
+      "cap": 0.5,
+      "status": "推定",
+      "source": "2026-11-13 用户拍板双暴击 + 系数为基线"
+    },
+    "mag_crit": {
+      "base": 0.05,
+      "per_spi": 0.0008,
+      "cap": 0.5,
+      "status": "推定",
+      "source": "2026-11-13 用户拍板双暴击 + 系数为基线"
+    },
+    "crit_multiplier": {
+      "value": 2.0,
+      "status": "已定",
+      "source": "2026-11-13 用户拍板：暴击双倍伤害"
+    },
+    "hit": {
+      "base": 0.85,
+      "per_agi": 0.0005,
+      "cap": 0.99,
+      "status": "推定",
+      "source": "baseline-2026-11-13"
+    },
+    "dodge": {
+      "base": 0.02,
+      "per_agi": 0.004,
+      "cap": 0.35,
+      "rounding": "none",
+      "status": "推定",
+      "source": "原 per_agi=0.0004 实测 1 级只有 0.3%，等于没有闪避；2026-11-14 上调到 0.004 并给 2% 基础值",
+      "note": "原值 0.0004"
+    }
+  }
+}

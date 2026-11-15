@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "status": "暂定玩法：怪物种类、等级及NPC坐标来自资料；任务文案、奖励、装备、技能与刷新时间用于原型验证，非原作定稿。",
+  "quests": [
+    {"title":"初到遗迹之岛","npc":"npc_ruins_island_10","monster":"","count":0,"target_level":1,"gold":30,"items":{"training_blade":1,"cloth_coat":1,"hp_potion":12,"mp_potion":6},"description":"领取出发用品，在背包中装备武器与衣服，再去找村长。"},
+    {"title":"金色麦田","npc":"npc_ruins_island_03","monster":"m_001","count":8,"target_level":3,"gold":20,"items":{"hp_potion":6},"description":"前往西北麦田，击败8只4级稻草人，再向村长交付。"},
+    {"title":"椰林巡查","npc":"npc_ruins_island_01","monster":"m_002","count":8,"target_level":5,"gold":25,"items":{"hp_potion":8,"mp_potion":4},"description":"在北部椰林击败8只6级兔子，回来向亚尔维斯大叔报告。"},
+    {"title":"圣迹滩调查","npc":"npc_ruins_island_09","monster":"m_003","count":10,"target_level":7,"gold":35,"items":{"island_blade":1,"hp_potion":10},"description":"到东南遗迹击败10只8级小蘑菇，再找远古战士交付。"},
+    {"title":"离岛前的历练","npc":"npc_ruins_island_06","monster":"m_004","count":12,"target_level":10,"gold":50,"items":{"hp_potion":10},"description":"在东部树林击败12只10级大蘑菇，向守护老人报告，然后从东北码头离岛。"}
+  ],
+  "items": {
+    "training_blade":{"name":"练习木剑","slot":"weapon","attack":10,"level":1},
+    "cloth_coat":{"name":"新手布衣","slot":"body","defense":3,"level":1},
+    "island_blade":{"name":"历练铁剑","slot":"weapon","attack":18,"level":7},
+    "hp_potion":{"name":"小瓶生命药水","heal":100,"price":3},
+    "mp_potion":{"name":"小瓶法力药水","mana":50,"price":3},
+    "island_material":{"name":"历练材料","sell":1}
+  },
+  "skill":{"name":"奋力一击","status":"暂定技能","level":1,"mp":8,"cooldown":4.0,"multiplier":2.0},
+  "respawn_seconds":12.0,
+  "behavior_status":"用户确认：常规怪物受玩家主动攻击一次后才反击。此规则适用于所有地图的normal怪物。"
+}

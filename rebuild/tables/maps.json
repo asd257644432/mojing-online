@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "status": "推定",
+    "source": "地图截图标注（2026-11-13 读图）+ 项目文档 13 区域口径",
+    "note": "区域名、传送目标、进入等级来自图上绿字；等级段由该图怪物等级推断；国界边境按用户判定为地图（跨国聚集），不是副本；安全区仅沐光平原城区与生命之境中心岛，其余默认非安全区；实际 14 张图，旧文档 13 区域口径差 1，待核"
+  },
+  "safe_zones": [
+    { "map_id": "muguang_plain", "scope": "城区范围以内", "status": "已定", "source": "2026-11-13 用户拍板" },
+    { "map_id": "life_realm", "scope": "中心岛屿", "status": "已定", "source": "2026-11-13 用户拍板" }
+  ],
+  "maps": [
+    {
+      "id": "ruins_island",
+      "name": "遗迹之岛",
+      "kind": "field",
+      "level_min": 1,
+      "level_max": 10,
+      "monster_kinds": 4,
+      "portals": [{ "to": "muguang_plain", "require_level": 10 }],
+      "dungeons": [],
+      "has_image": true,
+      "status": "推定",
+      "source": "地图截图：通往沐光平原（10 级可进入）"
+    },
+    {
+      "id": "muguang_plain",
+      "name": "沐光平原",
+      "kind": "field",
+      "level_min": 10,
+      "level_max": 30,
+      "monster_kinds": 10,
+      "portals": [
+        { "to": "ruins_island", "require_level": 5 },
+        { "to": "wind_valley", "require_level": 20 },
+        { "to": "wilderness_forest", "require_level": 30 }
+      ],
+      "dungeons": [],
+      "has_image": true,
+      "status": "推定",
+      "source": "地图截图：通往遗迹之岛/风之谷/旷野森林"
+    },
+    {
+      "id": "wind_valley",
+      "name": "风之谷",
+      "kind": "field",
+      "level_min": 20,
+      "level_max": 30,
+      "monster_kinds": 7,
+      "portals": [
+        { "to": "muguang_plain", "require_level": 10 },
+        { "to": "treasure_cave", "require_level": 20 }
+      ],
+      "dungeons": ["dragon_island"],
+      "has_image": true,
+      "status": "推定",
+      "source": "地图截图：通往沐光平原/藏宝洞；火龙岛渡口 20 级"
+    },
+    {
+      "id": "wilderness_forest",
+      "name": "旷野森林",
+      "kind": "field",
+      "level_min": 30,
+      "level_max": 40,
+      "monster_kinds": 10,
+      "portals": [
+        { "to": "muguang_plain", "require_level": 10 },
+        { "to": "life_realm", "require_level": 30 },
+        { "to": "snowfield", "require_level": 40 }
+      ],
+      "dungeons": ["jungle_camp"],
+      "has_image": true,
+      "status": "推定",
+      "source": "地图截图：通往雪原/生命之境/沐光平原；丛林营地 30 级"
+    },
+    {
+      "id": "snowfield",
+      "name": "雪原",
+      "kind": "field",
+      "level_min": 40,
+      "level_max": 54,
+      "monster_kinds": 20,
+      "portals": [
+        { "to": "wilderness_forest", "require_level": 30 },
+        { "to": "life_realm", "require_level": 30 },
+        { "to": "ice_mountain", "require_level": 45 }
+      ],
+      "dungeons": ["towers_room"],
+      "has_image": true,
+      "status": "推定",
+      "source": "地图截图：通往冰晶山/生命之境/旷野森林；托尔斯电室 40 级"
+    },
+    {
+      "id": "life_realm",
+      "name": "生命之境",
+      "kind": "hub",
+      "level_min": 50,
+      "level_max": 66,
+      "monster_kinds": 9,
+      "portals": [
+        { "to": "wilderness_forest", "require_level": 30 },
+        { "to": "snowfield", "require_level": 40 },
+        { "to": "ice_mountain", "require_level": 45 },
+        { "to": "barren_land", "require_level": 50 },
+        { "to": "borderland", "require_level": 30 }
+      ],
+      "dungeons": [],
+      "has_image": true,
+      "status": "推定",
+      "source": "地图截图：通往国界边境/迷失世界、冰晶山、雪原、旷野森林、荒芜之地"
+    },
+    {
+      "id": "borderland",
+      "name": "国界边境",
+      "kind": "cross_nation",
+      "level_min": 30,
+      "level_max": 150,
+      "monster_kinds": 0,
+      "portals": [{ "to": "life_realm", "require_level": 30 }],
+      "dungeons": [],
+      "has_image": true,
+      "status": "已定",
+      "source": "用户判定：跨国聚集地图，可在此前往其他国家",
+      "note": "通向他国的具体入口待补；本图无怪物标注"
+    },
+    {
+      "id": "ice_mountain",
+      "name": "冰晶山",
+      "kind": "field",
+      "level_min": 45,
+      "level_max": 64,
+      "monster_kinds": 11,
+      "portals": [
+        { "to": "snowfield", "require_level": 40 },
+        { "to": "life_realm", "require_level": 30 },
+        { "to": "death_swamp", "require_level": 50 }
+      ],
+      "dungeons": ["magma_heart"],
+      "has_image": true,
+      "status": "推定",
+      "source": "地图截图：通往死亡沼泽/生命之境/雪原；炎炎地心 50 级"
+    },
+    {
+      "id": "barren_land",
+      "name": "荒芜之地",
+      "kind": "field",
+      "level_min": 60,
+      "level_max": 115,
+      "monster_kinds": 13,
+      "portals": [
+        { "to": "life_realm", "require_level": 30 },
+        { "to": "oasis", "require_level": 50 }
+      ],
+      "dungeons": ["desert_city"],
+      "has_image": true,
+      "status": "推定",
+      "source": "地图截图：通往绿洲/生命之境；沙漠迷城 60 级"
+    },
+    {
+      "id": "death_swamp",
+      "name": "死亡沼泽",
+      "kind": "field",
+      "level_min": 70,
+      "level_max": 90,
+      "monster_kinds": 11,
+      "portals": [
+        { "to": "ice_mountain", "require_level": 45 },
+        { "to": "oasis", "require_level": 50 }
+      ],
+      "dungeons": ["modhai"],
+      "has_image": true,
+      "status": "推定",
+      "source": "地图截图：通往绿洲/冰晶山；莫德海枫 70 级"
+    },
+    {
+      "id": "oasis",
+      "name": "绿洲",
+      "kind": "field",
+      "level_min": 80,
+      "level_max": 120,
+      "monster_kinds": 12,
+      "portals": [
+        { "to": "death_swamp", "require_level": 50 },
+        { "to": "barren_land", "require_level": 50 }
+      ],
+      "dungeons": ["haka_temple"],
+      "has_image": true,
+      "status": "推定",
+      "source": "地图截图：通往死亡沼泽/荒芜之地；哈卡神殿 80 级"
+    },
+    {
+      "id": "star_throne",
+      "name": "星空王座",
+      "kind": "field",
+      "level_min": 120,
+      "level_max": 150,
+      "monster_kinds": 0,
+      "portals": [],
+      "dungeons": [],
+      "has_image": true,
+      "status": "未判定",
+      "source": "有场景图，无怪物与传送标注；120–150 怪物待补"
+    },
+    {
+      "id": "treasure_cave",
+      "name": "藏宝洞",
+      "kind": "field",
+      "level_min": 20,
+      "level_max": 30,
+      "monster_kinds": 0,
+      "portals": [{ "to": "wind_valley", "require_level": 20 }],
+      "dungeons": [],
+      "has_image": false,
+      "status": "未判定",
+      "source": "仅总览出现名字与 20 级门槛，无区域截图"
+    },
+    {
+      "id": "dragon_island",
+      "name": "大龙岛",
+      "kind": "field",
+      "level_min": 120,
+      "level_max": 150,
+      "monster_kinds": 0,
+      "portals": [],
+      "dungeons": [],
+      "has_image": false,
+      "status": "未判定",
+      "source": "仅总览出现名字，无等级与怪物资料"
+    }
+  ],
+  "dungeons": [
+    { "id": "dragon_island", "name": "火龙岛渡口", "entry_map": "wind_valley", "require_level": 20, "daily_limit": 2, "status": "推定", "source": "风之谷地图标注" },
+    { "id": "jungle_camp", "name": "丛林营地", "entry_map": "wilderness_forest", "require_level": 30, "daily_limit": 2, "status": "推定", "source": "旷野森林地图标注" },
+    { "id": "towers_room", "name": "托尔斯电室", "entry_map": "snowfield", "require_level": 40, "daily_limit": 2, "status": "推定", "source": "雪原地图标注" },
+    { "id": "magma_heart", "name": "炎炎地心", "entry_map": "ice_mountain", "require_level": 50, "daily_limit": 2, "status": "推定", "source": "冰晶山地图标注" },
+    { "id": "desert_city", "name": "沙漠迷城", "entry_map": "barren_land", "require_level": 60, "daily_limit": 2, "status": "推定", "source": "荒芜之地地图标注" },
+    { "id": "modhai", "name": "莫德海枫", "entry_map": "death_swamp", "require_level": 70, "daily_limit": 2, "status": "推定", "source": "死亡沼泽地图标注" },
+    { "id": "haka_temple", "name": "哈卡神殿", "entry_map": "oasis", "require_level": 80, "daily_limit": 2, "status": "推定", "source": "绿洲地图标注" },
+    { "id": "chaos_palace", "name": "混沌魔宮", "entry_map": null, "require_level": 120, "daily_limit": 2, "status": "推定", "source": "截图任务追踪：混沌魔宮 第四層" }
+  ]
+}

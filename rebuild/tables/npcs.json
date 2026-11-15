@@ -1,0 +1,1549 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "status": "图证",
+    "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）",
+    "rule": "坐标直接取截图 NPC 列表的 (x, y) 原文，未换算",
+    "note": "只覆盖截图里出现过的 10 张地图；风之谷/旷野森林/雪原/死亡沼泽/生命之境各有一处读图分歧，已写入 note 待核",
+    "npc_count": 106,
+    "map_count": 10
+  },
+  "maps_covered": [
+    {
+      "id": "ruins_island",
+      "name": "遗迹之岛",
+      "npc_count": 10
+    },
+    {
+      "id": "muguang_plain",
+      "name": "沐光平原",
+      "npc_count": 29
+    },
+    {
+      "id": "wind_valley",
+      "name": "风之谷",
+      "npc_count": 7
+    },
+    {
+      "id": "wilderness_forest",
+      "name": "旷野森林",
+      "npc_count": 5
+    },
+    {
+      "id": "snowfield",
+      "name": "雪原",
+      "npc_count": 8
+    },
+    {
+      "id": "life_realm",
+      "name": "生命之境",
+      "npc_count": 33
+    },
+    {
+      "id": "ice_mountain",
+      "name": "冰晶山",
+      "npc_count": 3
+    },
+    {
+      "id": "barren_land",
+      "name": "荒芜之地",
+      "npc_count": 3
+    },
+    {
+      "id": "death_swamp",
+      "name": "死亡沼泽",
+      "npc_count": 5
+    },
+    {
+      "id": "oasis",
+      "name": "绿洲",
+      "npc_count": 3
+    }
+  ],
+  "npcs": [
+    {
+      "id": "npc_ruins_island_01",
+      "name": "亞爾維斯大叔",
+      "map_id": "ruins_island",
+      "map_name": "遗迹之岛",
+      "pos": [
+        42,
+        24
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ruins_island_02",
+      "name": "傳送人",
+      "map_id": "ruins_island",
+      "map_name": "遗迹之岛",
+      "pos": [
+        21,
+        57
+      ],
+      "type": "传送",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ruins_island_03",
+      "name": "村長 老派恩",
+      "map_id": "ruins_island",
+      "map_name": "遗迹之岛",
+      "pos": [
+        19,
+        42
+      ],
+      "type": "官员",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ruins_island_04",
+      "name": "活動使者",
+      "map_id": "ruins_island",
+      "map_name": "遗迹之岛",
+      "pos": [
+        23,
+        46
+      ],
+      "type": "任务",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ruins_island_05",
+      "name": "魔域法師",
+      "map_id": "ruins_island",
+      "map_name": "遗迹之岛",
+      "pos": [
+        22,
+        49
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ruins_island_06",
+      "name": "守護老人 威爾斯",
+      "map_id": "ruins_island",
+      "map_name": "遗迹之岛",
+      "pos": [
+        51,
+        27
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ruins_island_07",
+      "name": "藥水店老闆 亞撒",
+      "map_id": "ruins_island",
+      "map_name": "遗迹之岛",
+      "pos": [
+        26,
+        49
+      ],
+      "type": "商店",
+      "function": "药水",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ruins_island_08",
+      "name": "蘇珊",
+      "map_id": "ruins_island",
+      "map_name": "遗迹之岛",
+      "pos": [
+        25,
+        25
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ruins_island_09",
+      "name": "遠古戰士",
+      "map_id": "ruins_island",
+      "map_name": "遗迹之岛",
+      "pos": [
+        19,
+        48
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ruins_island_10",
+      "name": "義父 布魯克",
+      "map_id": "ruins_island",
+      "map_name": "遗迹之岛",
+      "pos": [
+        14,
+        50
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_01",
+      "name": "VIP使者-薇恩",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        68,
+        93
+      ],
+      "type": "功能",
+      "function": "VIP",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_02",
+      "name": "倉庫管理員",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        100,
+        114
+      ],
+      "type": "功能",
+      "function": "仓库",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_03",
+      "name": "傳送人",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        72,
+        111
+      ],
+      "type": "传送",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_04",
+      "name": "榮譽獎勵大臣",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        110,
+        89
+      ],
+      "type": "官员",
+      "function": "荣誉奖励",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_05",
+      "name": "獸欄管理員",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        66,
+        112
+      ],
+      "type": "功能",
+      "function": "坐骑/宠物",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_06",
+      "name": "安德魯",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        70,
+        84
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_07",
+      "name": "材料合成師",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        64,
+        81
+      ],
+      "type": "功能",
+      "function": "材料合成",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_08",
+      "name": "採集入口使者",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        107,
+        130
+      ],
+      "type": "功能",
+      "function": "采集",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_09",
+      "name": "城主大人",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        111,
+        90
+      ],
+      "type": "官员",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_10",
+      "name": "大祭司伯特",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        87,
+        92
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_11",
+      "name": "防具店老闆",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        119,
+        77
+      ],
+      "type": "商店",
+      "function": "防具",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_12",
+      "name": "公告板",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        81,
+        92
+      ],
+      "type": "功能",
+      "function": "公告",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_13",
+      "name": "公會管理員",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        94,
+        119
+      ],
+      "type": "功能",
+      "function": "公会",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_14",
+      "name": "活動使者",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        108,
+        86
+      ],
+      "type": "任务",
+      "function": "活动",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_15",
+      "name": "老農",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        51,
+        122
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_16",
+      "name": "冒險團團長",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        91,
+        120
+      ],
+      "type": "任务",
+      "function": "冒险团",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_17",
+      "name": "萌女大使",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        58,
+        91
+      ],
+      "type": "功能",
+      "function": "活动",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_18",
+      "name": "魔法屋使者",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        89,
+        94
+      ],
+      "type": "功能",
+      "function": "商城",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_19",
+      "name": "拍賣師",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        80,
+        79
+      ],
+      "type": "功能",
+      "function": "拍卖",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_20",
+      "name": "生命魔法師歌德賽爾",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        97,
+        77
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_21",
+      "name": "首飾店老闆",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        96,
+        54
+      ],
+      "type": "商店",
+      "function": "首饰",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_22",
+      "name": "藥水店老闆",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        83,
+        127
+      ],
+      "type": "商店",
+      "function": "药水",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_23",
+      "name": "武器店老闆",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        108,
+        66
+      ],
+      "type": "商店",
+      "function": "武器",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_24",
+      "name": "裝備升級師",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        63,
+        82
+      ],
+      "type": "功能",
+      "function": "装备升级",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_25",
+      "name": "裝備強化師",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        65,
+        80
+      ],
+      "type": "功能",
+      "function": "装备强化",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_26",
+      "name": "試煉使者",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        102,
+        90
+      ],
+      "type": "任务",
+      "function": "试炼",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_27",
+      "name": "鍛造師",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        61,
+        84
+      ],
+      "type": "功能",
+      "function": "锻造",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_28",
+      "name": "雜貨店老闆",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        60,
+        105
+      ],
+      "type": "商店",
+      "function": "杂货",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_muguang_plain_29",
+      "name": "隱修人",
+      "map_id": "muguang_plain",
+      "map_name": "沐光平原",
+      "pos": [
+        28,
+        171
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wind_valley_01",
+      "name": "被囚者",
+      "map_id": "wind_valley",
+      "map_name": "风之谷",
+      "pos": [
+        121,
+        24
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wind_valley_02",
+      "name": "火龍島接引船長",
+      "map_id": "wind_valley",
+      "map_name": "风之谷",
+      "pos": [
+        17,
+        150
+      ],
+      "type": "传送",
+      "function": "火龙岛",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wind_valley_03",
+      "name": "蕾莉亞",
+      "map_id": "wind_valley",
+      "map_name": "风之谷",
+      "pos": [
+        66,
+        165
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wind_valley_04",
+      "name": "隱世強者 艾伯特",
+      "map_id": "wind_valley",
+      "map_name": "风之谷",
+      "pos": [
+        80,
+        31
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wind_valley_05",
+      "name": "風車老人",
+      "map_id": "wind_valley",
+      "map_name": "风之谷",
+      "pos": [
+        70,
+        101
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wind_valley_06",
+      "name": "養蜂老人",
+      "map_id": "wind_valley",
+      "map_name": "风之谷",
+      "pos": [
+        103,
+        69
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wind_valley_07",
+      "name": "麗莎",
+      "map_id": "wind_valley",
+      "map_name": "风之谷",
+      "pos": [
+        50,
+        18
+      ],
+      "type": "剧情",
+      "function": "另一份读图为「魔莎」，待核",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wilderness_forest_01",
+      "name": "亞力士",
+      "map_id": "wilderness_forest",
+      "map_name": "旷野森林",
+      "pos": [
+        78,
+        77
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wilderness_forest_02",
+      "name": "師兄 艾布納",
+      "map_id": "wilderness_forest",
+      "map_name": "旷野森林",
+      "pos": [
+        82,
+        155
+      ],
+      "type": "剧情",
+      "function": "另一份读图 y 为 155，x 记作 62，待核",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wilderness_forest_03",
+      "name": "阿爾法",
+      "map_id": "wilderness_forest",
+      "map_name": "旷野森林",
+      "pos": [
+        128,
+        75
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wilderness_forest_04",
+      "name": "多利亞",
+      "map_id": "wilderness_forest",
+      "map_name": "旷野森林",
+      "pos": [
+        83,
+        20
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_wilderness_forest_05",
+      "name": "米勒斯",
+      "map_id": "wilderness_forest",
+      "map_name": "旷野森林",
+      "pos": [
+        30,
+        75
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_snowfield_01",
+      "name": "導師羅麗雅",
+      "map_id": "snowfield",
+      "map_name": "雪原",
+      "pos": [
+        122,
+        108
+      ],
+      "type": "剧情",
+      "function": "另一份读图为「羅賽雅」，待核",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_snowfield_02",
+      "name": "導師狄龍",
+      "map_id": "snowfield",
+      "map_name": "雪原",
+      "pos": [
+        130,
+        117
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_snowfield_03",
+      "name": "大法師安其羅",
+      "map_id": "snowfield",
+      "map_name": "雪原",
+      "pos": [
+        126,
+        148
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_snowfield_04",
+      "name": "大長老尤金",
+      "map_id": "snowfield",
+      "map_name": "雪原",
+      "pos": [
+        127,
+        136
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_snowfield_05",
+      "name": "公主愛羅伊(同學)",
+      "map_id": "snowfield",
+      "map_name": "雪原",
+      "pos": [
+        116,
+        128
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_snowfield_06",
+      "name": "精靈尤利婭（同學）",
+      "map_id": "snowfield",
+      "map_name": "雪原",
+      "pos": [
+        125,
+        111
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_snowfield_07",
+      "name": "聖戰士潛龍",
+      "map_id": "snowfield",
+      "map_name": "雪原",
+      "pos": [
+        107,
+        110
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_snowfield_08",
+      "name": "院長安斯艾爾",
+      "map_id": "snowfield",
+      "map_name": "雪原",
+      "pos": [
+        134,
+        119
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_01",
+      "name": "VIP使者-波比",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        122,
+        216
+      ],
+      "type": "功能",
+      "function": "VIP",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_02",
+      "name": "倉庫管理員",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        98,
+        202
+      ],
+      "type": "功能",
+      "function": "仓库",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_03",
+      "name": "傳送人",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        115,
+        229
+      ],
+      "type": "传送",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_04",
+      "name": "國家捐獻會長",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        129,
+        208
+      ],
+      "type": "官员",
+      "function": "国家捐献",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_05",
+      "name": "國家福利發放官",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        95,
+        221
+      ],
+      "type": "官员",
+      "function": "国家福利",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_06",
+      "name": "國家任務官",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        134,
+        215
+      ],
+      "type": "任务",
+      "function": "国家任务",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_07",
+      "name": "國家大臣",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        132,
+        212
+      ],
+      "type": "官员",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_08",
+      "name": "寶圖商人",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        93,
+        192
+      ],
+      "type": "商店",
+      "function": "宝图；另一份读图为「誓園商人」，待核",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_09",
+      "name": "防具店老闆",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        105,
+        190
+      ],
+      "type": "商店",
+      "function": "防具",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_10",
+      "name": "公會管理員",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        130,
+        223
+      ],
+      "type": "功能",
+      "function": "公会",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_11",
+      "name": "公告板",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        104,
+        214
+      ],
+      "type": "功能",
+      "function": "公告",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_12",
+      "name": "公主愛羅伊",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        119,
+        217
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_13",
+      "name": "合成師",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        122,
+        188
+      ],
+      "type": "功能",
+      "function": "合成",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_14",
+      "name": "活動使者",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        116,
+        221
+      ],
+      "type": "任务",
+      "function": "活动",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_15",
+      "name": "教會元老 摩多",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        61,
+        275
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_16",
+      "name": "教皇使者",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        95,
+        231
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_17",
+      "name": "教皇 古特",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        98,
+        220
+      ],
+      "type": "官员",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_18",
+      "name": "酒保",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        89,
+        203
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_19",
+      "name": "看館人",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        86,
+        222
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_20",
+      "name": "冒險協會會長",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        132,
+        225
+      ],
+      "type": "任务",
+      "function": "冒险协会",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_21",
+      "name": "萌女大使",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        107,
+        217
+      ],
+      "type": "功能",
+      "function": "活动",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_22",
+      "name": "女神侍女",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        68,
+        245
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_23",
+      "name": "拍賣師",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        110,
+        231
+      ],
+      "type": "功能",
+      "function": "拍卖",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_24",
+      "name": "商會大使",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        103,
+        213
+      ],
+      "type": "功能",
+      "function": "商会",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_25",
+      "name": "首飾店老闆",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        101,
+        197
+      ],
+      "type": "商店",
+      "function": "首饰",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_26",
+      "name": "藥水店老闆",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        91,
+        216
+      ],
+      "type": "商店",
+      "function": "药水",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_27",
+      "name": "武器店老闆",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        126,
+        190
+      ],
+      "type": "商店",
+      "function": "武器",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_28",
+      "name": "裝備升級師",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        120,
+        190
+      ],
+      "type": "功能",
+      "function": "装备升级",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_29",
+      "name": "裝備強化師",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        121,
+        189
+      ],
+      "type": "功能",
+      "function": "装备强化",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_30",
+      "name": "元素大帝",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        131,
+        209
+      ],
+      "type": "官员",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_31",
+      "name": "護城元帥",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        113,
+        228
+      ],
+      "type": "官员",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_32",
+      "name": "鍛造師",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        119,
+        191
+      ],
+      "type": "功能",
+      "function": "锻造",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_life_realm_33",
+      "name": "雜貨店老闆",
+      "map_id": "life_realm",
+      "map_name": "生命之境",
+      "pos": [
+        109,
+        219
+      ],
+      "type": "商店",
+      "function": "杂货",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ice_mountain_01",
+      "name": "冰之女神",
+      "map_id": "ice_mountain",
+      "map_name": "冰晶山",
+      "pos": [
+        81,
+        85
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ice_mountain_02",
+      "name": "冰女",
+      "map_id": "ice_mountain",
+      "map_name": "冰晶山",
+      "pos": [
+        96,
+        138
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_ice_mountain_03",
+      "name": "守護愛靈",
+      "map_id": "ice_mountain",
+      "map_name": "冰晶山",
+      "pos": [
+        110,
+        129
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_barren_land_01",
+      "name": "古神之靈",
+      "map_id": "barren_land",
+      "map_name": "荒芜之地",
+      "pos": [
+        59,
+        158
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_barren_land_02",
+      "name": "冒險者",
+      "map_id": "barren_land",
+      "map_name": "荒芜之地",
+      "pos": [
+        16,
+        148
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_barren_land_03",
+      "name": "沙漠之花",
+      "map_id": "barren_land",
+      "map_name": "荒芜之地",
+      "pos": [
+        78,
+        194
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_death_swamp_01",
+      "name": "怪物哈利",
+      "map_id": "death_swamp",
+      "map_name": "死亡沼泽",
+      "pos": [
+        97,
+        21
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_death_swamp_02",
+      "name": "精靈女巫",
+      "map_id": "death_swamp",
+      "map_name": "死亡沼泽",
+      "pos": [
+        17,
+        61
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_death_swamp_03",
+      "name": "精靈王子哈利",
+      "map_id": "death_swamp",
+      "map_name": "死亡沼泽",
+      "pos": [
+        55,
+        168
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_death_swamp_04",
+      "name": "沼澤女巫",
+      "map_id": "death_swamp",
+      "map_name": "死亡沼泽",
+      "pos": [
+        124,
+        28
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_death_swamp_05",
+      "name": "賽德海爾傳送人",
+      "map_id": "death_swamp",
+      "map_name": "死亡沼泽",
+      "pos": [
+        12,
+        59
+      ],
+      "type": "传送",
+      "function": "另一份读图为「賽德海嶺」，待核",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_oasis_01",
+      "name": "阿古斯",
+      "map_id": "oasis",
+      "map_name": "绿洲",
+      "pos": [
+        64,
+        156
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_oasis_02",
+      "name": "阿薩克",
+      "map_id": "oasis",
+      "map_name": "绿洲",
+      "pos": [
+        50,
+        144
+      ],
+      "type": "剧情",
+      "function": "",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    },
+    {
+      "id": "npc_oasis_03",
+      "name": "哈卡神廟傳送人",
+      "map_id": "oasis",
+      "map_name": "绿洲",
+      "pos": [
+        54,
+        122
+      ],
+      "type": "传送",
+      "function": "哈卡神殿",
+      "status": "图证",
+      "source": "实机截图 NPC 列表窗口原文（2026-11-13 全量读图）"
+    }
+  ]
+}
