@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "status": "推定",
+    "source": "2026-11-13 用户拍板：升级后低等级怪物经验自动减少，最低 1 点；前期经验跟主线任务走",
+    "note": "等级差在 free_diff 以内不衰减，超出后每级乘 (1 - per_level)，结果不低于 min_exp"
+  },
+  "exp_penalty": {
+    "free_diff": 3,
+    "per_level": 0.1,
+    "min_exp": 1,
+    "status": "推定",
+    "source": "baseline-2026-11-13-v3"
+  },
+  "quest_exp_policy": {
+    "main_quest_ratio": 1.1,
+    "status": "推定",
+    "source": "2026-11-13 用户要求前期经验跟主线任务走"
+  },
+  "monster_stats": {
+    "hp": {
+      "base": 40,
+      "per_level": 12,
+      "kind_mult": {
+        "normal": 1.0,
+        "elite": 3.0,
+        "boss": 30.0
+      },
+      "rounding": "floor"
+    },
+    "atk": {
+      "base": 25,
+      "per_level": 2.0,
+      "kind_mult": {
+        "normal": 1.0,
+        "elite": 1.6,
+        "boss": 2.5
+      },
+      "rounding": "floor",
+      "note": "原 base=3 / per_level=1.2 实测打不动玩家（Lv4 怪对 1 级战士每下只 1 点），上调为 25/2.0"
+    },
+    "def": {
+      "base": 0,
+      "per_level": 0.6,
+      "rounding": "floor"
+    },
+    "status": "推定",
+    "source": "monsters.json 只有等级与经验；生命/攻击/防御按等级与性质推定，2026-11-14 依据实测手感调整攻击基数"
+  },
+  "damage_model": {
+    "physical": "max(1, round(phys_atk * rand(0.9,1.1)) - monster_def)",
+    "magical": "max(1, round(mag_atk * rand(0.9,1.1)) - monster_def)",
+    "crit": "按 phys_crit / mag_crit 判定，命中则乘 crit_multiplier(=2.0)",
+    "monster_to_player": "max(1, round(monster_atk * rand(0.9,1.1)) - player_phys_def)",
+    "status": "推定",
+    "source": "暴击倍率 2.0 为用户拍板；防御减免与随机浮动为基线"
+  },
+  "class_attack_range": {
+    "warrior": {
+      "range_px": 56,
+      "kind": "melee",
+      "class_name": "战士",
+      "damage_type": "physical"
+    },
+    "rogue": {
+      "range_px": 50,
+      "kind": "melee",
+      "class_name": "盗贼",
+      "damage_type": "physical"
+    },
+    "mage": {
+      "range_px": 320,
+      "kind": "ranged",
+      "class_name": "法师",
+      "damage_type": "magic"
+    },
+    "ranger": {
+      "range_px": 400,
+      "kind": "ranged",
+      "class_name": "游侠",
+      "damage_type": "physical"
+    },
+    "priest": {
+      "range_px": 300,
+      "kind": "ranged",
+      "class_name": "祭司",
+      "damage_type": "magic"
+    },
+    "merchant": {
+      "range_px": 280,
+      "kind": "ranged",
+      "class_name": "商人",
+      "damage_type": "magic"
+    },
+    "status": "推定",
+    "source": "近战/远程二分按职业定位推定；具体像素值无图证，一格按 32px 折算（近战约 2 格、远程 9-12 格）"
+  },
+  "approach": {
+    "rule": "近战职业点怪后自动走到攻击距离内；远程职业原地开打",
+    "stop_ratio": 0.75,
+    "status": "推定",
+    "source": "操作手感推定：停在射程 75% 处，避免贴脸和边缘抖动"
+  },
+  "monster_ai": {
+    "sense_range_px": 260,
+    "aggro_range_px": 760,
+    "attack_range_px": 46,
+    "attack_interval_sec": 1.6,
+    "chase_speed_px": 110,
+    "return_speed_px": 150,
+    "leash_regen_per_sec": 0.2,
+    "status": "推定",
+    "source": "无图证：感知/仇恨半径与追击速度按页游手感推定。未被打过的怪只在感知半径内追人；被打过进入激怒，追到仇恨半径；跑出仇恨半径即脱战、回出生点并按每秒 20% 回血"
+  },
+  "rest": {
+    "delay_after_combat_sec": 5.0,
+    "hp_percent_per_sec": 3.0,
+    "mp_percent_per_sec": 5.0,
+    "status": "推定",
+    "source": "无图证：图里只能看到「休息」这类按钮的存在，没有回复数值。脱战 5 秒后每秒回 3% 气血、5% 法力，满血满蓝即停止"
+  }
+}
